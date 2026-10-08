@@ -1,0 +1,10 @@
+{
+  "id": "privacy-headline-line",
+  "name": "privacy-headline-line",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

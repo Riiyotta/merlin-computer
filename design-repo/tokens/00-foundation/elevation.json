@@ -1,0 +1,45 @@
+{
+  "$description": "Foundation elevation tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "elevation.01": {
+      "$type": "shadow",
+      "$value": "rgb(255, 255, 255) 0px 0px 0px 4px",
+      "usage": 7
+    },
+    "elevation.02": {
+      "$type": "shadow",
+      "$value": "rgba(0, 0, 0, 0.016) 0px 5px 12px 0px",
+      "usage": 6
+    },
+    "elevation.03": {
+      "$type": "shadow",
+      "$value": "rgb(214, 214, 214) 2px 3px 0px 0px",
+      "usage": 4
+    },
+    "elevation.04": {
+      "$type": "shadow",
+      "$value": "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 0, 0, 0.14) 0px 16px 36px -24px",
+      "usage": 4
+    },
+    "elevation.05": {
+      "$type": "shadow",
+      "$value": "rgb(217, 217, 217) 5px 5px 0px 0px",
+      "usage": 3
+    },
+    "elevation.06": {
+      "$type": "shadow",
+      "$value": "rgba(0, 0, 0, 0.133) 0px 2px 5px 0px",
+      "usage": 3
+    },
+    "elevation.07": {
+      "$type": "shadow",
+      "$value": "rgba(255, 255, 255, 0.15) 0px 1px 0px 0px inset",
+      "usage": 3
+    },
+    "elevation.08": {
+      "$type": "shadow",
+      "$value": "rgba(255, 255, 255, 0.19) 0px 1px 1px 0px inset, rgba(0, 0, 0, 0.082) 0px 1px 2px 0px",
+      "usage": 3
+    }
+  }
+}

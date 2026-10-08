@@ -1,0 +1,14 @@
+{
+  "id": "dd-restaurant",
+  "name": "dd-restaurant",
+  "occurrences": 3,
+  "composedOf": [
+    "button",
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "merlin-story",
+  "name": "merlin-story",
+  "occurrences": 26,
+  "composedOf": [
+    "button",
+    "form",
+    "heading",
+    "image",
+    "input",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

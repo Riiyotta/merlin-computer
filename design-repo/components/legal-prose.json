@@ -1,0 +1,14 @@
+{
+  "id": "legal-prose",
+  "name": "legal-prose",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}

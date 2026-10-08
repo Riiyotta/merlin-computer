@@ -1,0 +1,12 @@
+{
+  "id": "closing-clock-time",
+  "name": "closing-clock-time",
+  "occurrences": 26,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

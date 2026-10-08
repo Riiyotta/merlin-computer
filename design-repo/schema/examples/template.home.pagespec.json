@@ -1,0 +1,564 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.home",
+  "route": "/",
+  "nodes": [
+    {
+      "type": "shell.skip-link",
+      "content": {
+        "ctas": [
+          {
+            "label": "Skip to product examples",
+            "href": "#routines"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "hero.story-hero",
+      "content": {
+        "heading": "Your time. Yours again.",
+        "body": [
+          "Meet Merlin. Your AI assistant for the things you need to do, giving you time back for the things you’d love to."
+        ],
+        "ctas": [
+          {
+            "label": "GET MERLIN FOR MAC",
+            "href": "/download?start=1"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "logo"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "instant-state"
+      }
+    },
+    {
+      "type": "features.merlin-in-your-everyday",
+      "content": {
+        "body": [
+          "0 unread notifications"
+        ],
+        "ctas": [
+          {
+            "label": "Notification sound"
+          },
+          {
+            "label": "Replay notification animation"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "content-image",
+            "alt": "A woven pastel lakeside landscape with a small sailboat, willow trees, and lavender hills at sunset"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "proof.used-by-professionals-at",
+      "content": {
+        "body": [
+          "Used by professionals at"
+        ],
+        "images": [
+          {
+            "assetRole": "customer-logo",
+            "alt": "Notion"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Harvard University"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "features.routines",
+      "content": {
+        "ctas": [
+          {
+            "label": "Pause routine"
+          }
+        ],
+        "items": [
+          {
+            "title": "First, a little context.",
+            "body": "The conversation is in Slack. The plan is in Notion. SHSophie’s email is in your inbox."
+          },
+          {
+            "title": "A quick catch-up before launch",
+            "body": "Hi Amira,"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "customer-logo",
+            "alt": "Gmail"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Calendar"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Slack"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Notion"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Granola"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Linear"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Gmail"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Gmail"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Notion"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Notion"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Calendar"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Gmail"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Notion"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Calendar"
+          },
+          {
+            "assetRole": "content-image"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "features.browser",
+      "content": {
+        "heading": "If it happens in a browser, Merlin can help.",
+        "body": [
+          "I can help you compare flights on Qatar Airways and find the right one for your trip."
+        ],
+        "ctas": [
+          {
+            "label": "Qatar Airways QR 10 · Boeing 777 08:05 LHR 6h 45m Non-stop 16:50 DOH Flight deta"
+          },
+          {
+            "label": "Qatar Airways QR 4 · Boeing 777 14:15 LHR 6h 45m Non-stop 23:00 DOH Flight detai"
+          },
+          {
+            "label": "Qatar Airways QR 16 · Boeing 777 21:55 LHR 6h 45m Non-stop 06:40 +1 DOH Flight d"
+          },
+          {
+            "label": "Market Kitchen 4.8 ★ (200+) · 25–35 min Healthy · Bowls · Salads $0 delivery fee"
+          },
+          {
+            "label": "Save Market Kitchen"
+          },
+          {
+            "label": "Little Garden 4.7 ★ (200+) · 30–40 min Vegetarian · Mediterranean $0 delivery fe"
+          },
+          {
+            "label": "Save Little Garden"
+          },
+          {
+            "label": "Rice & Co. 4.9 ★ (200+) · 20–30 min Asian · Rice bowls · Healthy $1.49 delivery "
+          },
+          {
+            "label": "Save Rice & Co."
+          },
+          {
+            "label": "Remove one Hass Avocado"
+          },
+          {
+            "label": "Add one Hass Avocado"
+          },
+          {
+            "label": "Remove one Organic Bananas"
+          }
+        ],
+        "items": [
+          {
+            "title": "Select your outbound flight",
+            "body": "London Heathrow (LHR) to Doha (DOH) Friday, 9 October 2026"
+          },
+          {
+            "title": "A little something for everyone.",
+            "body": "Fresh bowls. Local favorites. Delivered."
+          },
+          {
+            "title": "Fresh Market"
+          },
+          {
+            "title": "Product Designer"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "customer-logo",
+            "alt": "Qatar Airways"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "A selection of fresh grain bowls"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Healthy · Bowls · Salads"
+          },
+          {
+            "assetRole": "avatar",
+            "alt": "Vegetarian · Mediterranean"
+          },
+          {
+            "assetRole": "avatar",
+            "alt": "Asian · Rice bowls · Healthy"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Hass Avocado"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Organic Bananas"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Oatly Original Oatmilk"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Ashby"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "scroll-linked",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "features.meetings",
+      "content": {
+        "heading": "One conversation. Something to PDF show for it.",
+        "subheading": "Be there for the call. Merlin handles the notes.",
+        "body": [
+          "Focus on your call with SHSophie. Merlin takes care of the notes and next steps.",
+          "Then turn your ideas into PDF PDFs, decks, spreadsheets, and websites. All from the same conversation.",
+          "Record with Merlin. After the call, come back to what you decided and what happens next.",
+          "The team aligned on a focused October 9 launch for Common Ground. The first release will introduce the studio’s three core services, with a clear story across the website and launch deck.",
+          "Leo will share the revised designs on Wednesday. Amira will build the deck around the approved direction, leaving Thursday for Sophie’s feedback and final copy changes.",
+          "Reports, spreadsheets, decks, and websites. Everything you need to move the project forward, together in one place."
+        ],
+        "ctas": [
+          {
+            "label": "Transcript"
+          },
+          {
+            "label": "Notes"
+          },
+          {
+            "label": "Prepare the launch deck Introduce the three services, the studio story, and the "
+          },
+          {
+            "label": "Share the revised website designs Bring the homepage and service pages together "
+          },
+          {
+            "label": "Review the deck and final copy Collect feedback in one place and confirm the las"
+          },
+          {
+            "label": "Play Merlin audio"
+          }
+        ],
+        "items": [
+          {
+            "title": "Meeting summary"
+          },
+          {
+            "title": "Key decisions"
+          },
+          {
+            "title": "Action items"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Two handmade felt characters talking over tea in a sunlit garden studio"
+          },
+          {
+            "assetRole": "customer-logo",
+            "alt": "Google Meet"
+          },
+          {
+            "assetRole": "avatar",
+            "alt": "Sophie"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Leo"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "features.companion",
+      "content": {
+        "heading": "No need to leave what you’re doing.",
+        "subheading": "Removing a background in Photoshop.",
+        "body": [
+          "And when you’re working somewhere else…",
+          "That sentence doesn’t sound quite like you. Highlight it and ask Merlin for another version. Put it back when it feels right.",
+          "Or ask about a webpage, a file in Finder, or what’s on your screen, with your permission.",
+          "Pixel Layer",
+          "Scripted example: open Merlin in Photoshop and ask how to remove a background. Approve the sample screen request. Merlin sees the screenshot and explains which tool to use. The demo user clicks Remove Background and Photoshop adds a mask. This demo never captures your screen or changes your files."
+        ],
+        "ctas": [
+          {
+            "label": "Ask Merlin"
+          },
+          {
+            "label": "Rephrase word"
+          },
+          {
+            "label": "See the details"
+          },
+          {
+            "label": "Remove background in this demo"
+          },
+          {
+            "label": "Photoshop"
+          },
+          {
+            "label": "Slack"
+          },
+          {
+            "label": "Chrome"
+          },
+          {
+            "label": "Pause demo"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "A cyan felt character working from a comfortable armchair"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Hand-stitched cyan felt Merlin artwork on a warm pink background"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "customer-logo"
+          },
+          {
+            "assetRole": "icon"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "features.privacy",
+      "content": {
+        "heading": "Personal work. Private by design.",
+        "body": [
+          "Your work is personal. You choose what to share with Merlin and when to step in. We never sell your personal information."
+        ],
+        "items": [
+          {
+            "title": "Independently audited security",
+            "body": "Merlin’s security controls undergo independent assessment through a SOC 2 Type II audit."
+          },
+          {
+            "title": "Your approval comes first",
+            "body": "Merlin asks before sending emails or invites. You’re in control."
+          },
+          {
+            "title": "No model training",
+            "body": "Neither Merlin nor our AI providers use your data to train models."
+          },
+          {
+            "title": "Protected in storage and transit",
+            "body": "Your data is encrypted when stored and as it moves between systems."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-animation",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "support.faq",
+      "content": {
+        "heading": "Good questions. Clear answers.",
+        "body": [
+          "Start with the essentials. For anything else, ask Merlin below."
+        ],
+        "ctas": [
+          {
+            "label": "What can Merlin help me with?"
+          },
+          {
+            "label": "What do I need to get started?"
+          },
+          {
+            "label": "Can I use Merlin in my own browser?"
+          },
+          {
+            "label": "How does Companion work?"
+          },
+          {
+            "label": "Can Merlin help with meeting notes?"
+          },
+          {
+            "label": "Ask Merlin"
+          }
+        ],
+        "items": [
+          {
+            "title": "What can Merlin help me with?",
+            "body": "Merlin is an AI chief of staff for your Mac. It helps with browser research and tasks, meetings, files, coding projects, connected services, and scheduled or event-driven routines. Companion brings that help into the apps you’re already using."
+          },
+          {
+            "title": "What do I need to get started?",
+            "body": "Sign in, connect your email and calendar, tell Merlin about your priorities, and start your trial. The desktop setup then walks you through the permissions needed for Companion. Email and calendar connections are required in the current onboarding experience."
+          },
+          {
+            "title": "Can I use Merlin in my own browser?",
+            "body": "Yes. Pair the browser extension to use your existing browser sessions, or work in Merlin’s built-in browser. You can follow a task, stop it, or take over."
+          },
+          {
+            "title": "How does Companion work?",
+            "body": "Press Option + Space to open Companion over your current app. Ask about your work, use selected text as context, or approve a screen capture when Merlin needs to see what’s on screen."
+          },
+          {
+            "title": "Can Merlin help with meeting notes?",
+            "body": "The Meetings tab brings recordings, speaker-labelled transcripts, and notes together. You can search meetings, organize them in folders, and use templates to refine your notes."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.closing-footer",
+      "content": {
+        "heading": "Your next free moment starts at 16:42",
+        "body": [
+          "In just three minutes, Merlin starts handling your to-dos. You decide what comes after."
+        ],
+        "ctas": [
+          {
+            "label": "GET MERLIN FOR MAC",
+            "href": "/download?start=1"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "background"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "site-container",
+  "name": "site-container",
+  "occurrences": 25,
+  "composedOf": [
+    "button",
+    "form",
+    "heading",
+    "input",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

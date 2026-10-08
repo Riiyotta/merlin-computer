@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0",
+  "patterns": {
+    "none": {
+      "description": "No animation.",
+      "observedSections": 0
+    },
+    "css-transition": {
+      "description": "A CSS transition on hover/focus/state change.",
+      "observedSections": 56
+    },
+    "css-animation": {
+      "description": "A CSS @keyframes animation.",
+      "observedSections": 29
+    },
+    "appear-on-enter": {
+      "description": "Element appears (fade/slide) when it enters the viewport.",
+      "observedSections": 0,
+      "observedNote": "0 sections: no intersection-observer reveal was measured; the entrance effects found are CSS animations on the hero title lines (css-animation)."
+    },
+    "scroll-linked": {
+      "description": "Sticky or scroll-pinned behaviour tied to scroll position.",
+      "observedSections": 3
+    },
+    "canvas-animation": {
+      "description": "A <canvas>-rendered animation (Rive, Lottie or WebGL).",
+      "observedSections": 0,
+      "observedNote": "0 sections: the source ships no .riv/.lottie assets and no <canvas> animation (the only 'rive' substring in src/index.html is the word 'riven')."
+    }
+  },
+  "reducedMotionFallbacks": [
+    "disable-animation",
+    "instant-state"
+  ],
+  "closedFields": [
+    "pattern",
+    "reducedMotionFallback"
+  ],
+  "budget": {
+    "maxAnimatedSectionsPerPage": 9,
+    "basis": "most animated measured page"
+  },
+  "tokens": {
+    "durations": "tokens/00-foundation/motion.json",
+    "semantic": "tokens/10-semantic/motion.json"
+  },
+  "reducedMotionEvidence": {
+    "summary": "prefers-reduced-motion IS used by the source: 13 of 17 stylesheets under public/_next/static/css contain a rule (it is absent from src/index.html only because the rules live in the stylesheets). Each section's motion.reducedMotionEvidence says whether its fallback is measured from a rule that targets it, comes from the site-wide .merlin-story rule, or is the contract default.",
+    "siteWideRule": {
+      "stylesheet": "public/_next/static/css/e2e0ba86a6b0d559.css",
+      "selectors": ".merlin-story *,.merlin-story :after,.merlin-story :before",
+      "effect": "animation-duration/transition-duration .01ms, scroll-behavior auto (site-wide, every page that carries .merlin-story)",
+      "notAppliedOn": "/download (no .merlin-story on that page)"
+    },
+    "measuredFallbackValues": {
+      "instant-state": [
+        "hero.story-hero",
+        "content.manifesto"
+      ],
+      "disable-animation": "all other sections with a measured rule"
+    }
+  }
+}

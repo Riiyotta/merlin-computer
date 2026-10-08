@@ -1,0 +1,12 @@
+{
+  "id": "install-step-heading",
+  "name": "install-step-heading",
+  "occurrences": 3,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/download"
+  }
+}

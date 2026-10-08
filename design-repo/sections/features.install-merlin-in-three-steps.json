@@ -1,0 +1,74 @@
+{
+  "id": "features.install-merlin-in-three-steps",
+  "category": "FEATURES",
+  "label": "Install Merlin in three steps",
+  "tag": "ol",
+  "purpose": "Three illustrated install steps (open your download, move Merlin to Applications, open Merlin) that carry a new user from downloaded file to a running app.",
+  "purposeIsInferred": false,
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/download/index.html:70-105"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 3,
+        "titleMaxWords": 3,
+        "bodyMaxWords": 12
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 3,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "contract-default",
+      "note": "No prefers-reduced-motion rule targets this section and the /download page does not carry .merlin-story, so the site-wide rule does not apply; reducedMotionFallback is the contract default, not a measured behaviour."
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 400,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 1215,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "3 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

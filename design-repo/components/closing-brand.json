@@ -1,0 +1,12 @@
+{
+  "id": "closing-brand",
+  "name": "closing-brand",
+  "occurrences": 26,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

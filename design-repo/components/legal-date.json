@@ -1,0 +1,10 @@
+{
+  "id": "legal-date",
+  "name": "legal-date",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}

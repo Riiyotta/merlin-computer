@@ -1,0 +1,10 @@
+{
+  "id": "closing-copyright",
+  "name": "closing-copyright",
+  "occurrences": 26,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

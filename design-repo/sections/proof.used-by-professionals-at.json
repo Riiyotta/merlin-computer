@@ -1,0 +1,77 @@
+{
+  "id": "proof.used-by-professionals-at",
+  "category": "PROOF",
+  "label": "Used by professionals at",
+  "tag": "section",
+  "purpose": "Social proof strip on the home page: the line 'Used by professionals at' followed by five third-party company logos (Notion, Salesforce, Harvard, HubSpot, McKinsey). Logos are real trademarks (customer-logo role, never fabricated).",
+  "purposeIsInferred": false,
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:141-163"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 4
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 2,
+        "assetRoles": [
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "site-wide-rule",
+      "stylesheet": "public/_next/static/css/e2e0ba86a6b0d559.css",
+      "selectors": ".merlin-story *,.merlin-story :after,.merlin-story :before",
+      "effect": "animation-duration/transition-duration .01ms, scroll-behavior auto (site-wide, every page that carries .merlin-story)"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 231,
+      "columns": 5
+    },
+    "mobile": {
+      "heightPx": 216,
+      "columns": 5,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "≤767px: section padding 40px 24px 48px, heading 14px, logo gap 22px 28px"
+    ],
+    "changesEvidence": "CSS @media rules in public/_next/static/css/401561448b81938e.css",
+    "changesBasis": "read from the stylesheet's @media rules; the heights/columns above are separately measured at 1440px and 390px"
+  },
+  "assetRoles": [
+    "customer-logo"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use",
+  "contentPolicy": "Measured copy shows real companies' logos. Generated pages must use clearly fictional company names and placeholders for customer logos (customer-logo role is must-not-fabricate)."
+}

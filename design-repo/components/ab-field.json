@@ -1,0 +1,12 @@
+{
+  "id": "ab-field",
+  "name": "ab-field",
+  "occurrences": 4,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

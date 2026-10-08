@@ -1,0 +1,77 @@
+{
+  "id": "features.privacy",
+  "category": "FEATURES",
+  "label": "privacy",
+  "tag": "section",
+  "purpose": "Home-page trust section 'Personal work. Private by design.': four short claims (independent audit, approval first, no model training, protection in storage and transit) that remove the privacy objection before the final call to action.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:2730-2922"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 22
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 4,
+        "titleMaxWords": 5,
+        "bodyMaxWords": 13
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/fc1769f629488e8f.css",
+      "selectors": "#top .privacy-policy-link svg; #top .privacy-trust-card svg [class*=privacy-]",
+      "effect": "icon animation/transition removed"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 957,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 1151,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

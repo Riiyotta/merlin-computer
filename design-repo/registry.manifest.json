@@ -1,0 +1,58 @@
+{
+  "repositoryId": "merlin-computer-design-repo",
+  "site": "merlin-computer",
+  "status": "design-review-pending",
+  "productionApproved": false,
+  "repositoryVersion": "0.1.0",
+  "pageSpecVersion": "0.1.0",
+  "allowlistVersion": "1",
+  "versionFieldNote": "allowlistVersion is machine-checked (verify_all.py fails if it differs from tokens/llm/component-allowlist.json). repositoryVersion and pageSpecVersion are documentation-only markers; pageSpecVersion is additionally pinned as a const in the schema.",
+  "defaultTheme": "light",
+  "schemaValidatedThemes": [
+    "light"
+  ],
+  "theme": {
+    "id": "light",
+    "file": "tokens/themes/light.json"
+  },
+  "sourceProject": {
+    "url": "https://www.merlin.computer//",
+    "framework": "React+Next.js",
+    "scrapedAt": "2026-10-07T11:14:27Z"
+  },
+  "generatedBy": "website-builder (heuristic extraction; see README)",
+  "counts": {
+    "sections": 22,
+    "templates": 7,
+    "routes": 27,
+    "primitives": 9,
+    "components": 121,
+    "assets": 174,
+    "tokens": {
+      "foundation": 186,
+      "semantic": 19,
+      "component": 23,
+      "layout": 14
+    },
+    "themes": 1,
+    "rules": 7
+  },
+  "entryPoints": {
+    "tokenCatalog": "tokens/llm/token-catalog.json",
+    "tokenPolicy": "tokens/llm/token-policy.json",
+    "componentAllowlist": "tokens/llm/component-allowlist.json",
+    "compatibilityGraph": "compatibility/graph.json",
+    "assetContract": "assets/asset-roles.json",
+    "motionContract": "motion/motion-contract.json",
+    "templates": "templates/templates.json",
+    "pagespecSchema": "schema/pagespec.schema.json",
+    "examplePageSpec": "schema/example.pagespec.json",
+    "semanticValidate": "schema/semantic_validate.py",
+    "adversarialSuite": "schema/tests/adversarial_test.py",
+    "admission": "extraction/verify_all.py",
+    "driftProof": "extraction/prove_drift.py",
+    "measuredValues": "extraction/measured-values.json",
+    "defaultTheme": "tokens/themes/light.json",
+    "examplePageSpecs": "schema/examples"
+  }
+}

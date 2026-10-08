@@ -1,0 +1,65 @@
+{
+  "id": "commerce.pricing-plans",
+  "category": "COMMERCE",
+  "label": "pricing-plans",
+  "tag": "section",
+  "purpose": "Lets a visitor compare the three monthly plans (Pro, Ultra, Max) by description, price and included credits, and start the download from any of them. Plan name is items[].title, its description is items[].body; price and credit lines go in body[] in plan order; each plan has one ctas[] entry.",
+  "purposeIsInferred": false,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/pricing/index.html:74-179"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 9,
+        "maxWords": 4
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 4
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 3,
+        "titleMaxWords": 1,
+        "bodyMaxWords": 12
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/2abce9a6dc03269b.css",
+      "selectors": ".pricing-page *, .pricing-page :before",
+      "effect": "transition none, scroll-behavior auto across the whole pricing page"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "changes": []
+  }
+}

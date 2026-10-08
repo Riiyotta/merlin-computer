@@ -1,0 +1,12 @@
+{
+  "id": "install-art",
+  "name": "install-art",
+  "occurrences": 3,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/download"
+  }
+}

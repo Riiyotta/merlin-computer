@@ -1,0 +1,80 @@
+{
+  "id": "shell.page-nav",
+  "category": "SHELL",
+  "label": "page-nav",
+  "tag": "div",
+  "purpose": "Page-top container holding the main navigation (Merlin brand mark with the Pricing and Manifesto links) on every inner page. On the home and pricing pages the same hero-corner-nav is instead embedded inside hero.story-hero, so those pages have no separate page-nav node.",
+  "purposeIsInferred": false,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 24,
+    "routes": 24,
+    "measuredFrom": [
+      "src/blog/index.html:52-65",
+      "src/blog/ai-note-taking-tools-in-2025-top-picks-trends-and-tips/index.html:34-47",
+      "src/blog/best-free-transcription-software-tools-in-2025-top-speech-to-text-picks/index.html:46-59",
+      "src/blog/how-to-create-a-professional-email-address-2025-guide/index.html:34-47",
+      "src/blog/how-to-email-a-professor-updated-guide-with-templates-and-real-world-tips/index.html:34-47"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "logo"
+        ]
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 2,
+        "maxWords": 1
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "site-wide-rule",
+      "stylesheet": "public/_next/static/css/e2e0ba86a6b0d559.css",
+      "selectors": ".merlin-story *,.merlin-story :after,.merlin-story :before",
+      "effect": "animation-duration/transition-duration .01ms, scroll-behavior auto (site-wide, every page that carries .merlin-story)"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 160,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 144,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "≤767px: hero-corner-nav moves to top 24px with 13px type and enlarged tap targets",
+      "≤600px: manifesto-page navigation height 144px"
+    ],
+    "changesEvidence": "CSS @media rules in a5f02e9d0c6db7af.css (nav); ae725ea36c48b431.css (manifesto)",
+    "changesBasis": "read from the stylesheet's @media rules; the heights/columns above are separately measured at 1440px and 390px"
+  },
+  "assetRoles": [
+    "logo"
+  ]
+}

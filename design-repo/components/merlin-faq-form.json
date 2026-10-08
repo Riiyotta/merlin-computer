@@ -1,0 +1,14 @@
+{
+  "id": "merlin-faq-form",
+  "name": "merlin-faq-form",
+  "occurrences": 2,
+  "composedOf": [
+    "button",
+    "input",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

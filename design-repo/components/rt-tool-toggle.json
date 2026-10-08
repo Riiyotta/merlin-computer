@@ -1,0 +1,12 @@
+{
+  "id": "rt-tool-toggle",
+  "name": "rt-tool-toggle",
+  "occurrences": 5,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

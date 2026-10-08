@@ -1,0 +1,10 @@
+{
+  "id": "context-inline-initials",
+  "name": "context-inline-initials",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

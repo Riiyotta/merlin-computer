@@ -1,0 +1,103 @@
+{
+  "id": "features.meetings",
+  "category": "FEATURES",
+  "label": "meetings",
+  "tag": "section",
+  "purpose": "Home-page chapter on meetings: Merlin records the call, produces a transcript, summary, key decisions and action items, then turns the outcome into PDFs, decks, spreadsheets and websites.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:1522-2232"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 8
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 32
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 15
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 3,
+        "titleMaxWords": 2,
+        "bodyMaxWords": 0
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 6,
+        "assetRoles": [
+          "avatar",
+          "content-image",
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/fc1769f629488e8f.css",
+      "selectors": "#top .meeting-landscape *; .merlin-story .meetings-section .meeting-transcript>div",
+      "effect": "animation/transition none; transcript rows static"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1645,
+      "columns": 49
+    },
+    "mobile": {
+      "heightPx": 2337,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "49 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "content-image",
+    "customer-logo"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

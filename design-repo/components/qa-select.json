@@ -1,0 +1,12 @@
+{
+  "id": "qa-select",
+  "name": "qa-select",
+  "occurrences": 3,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "next-route-announcer",
+  "name": "next-route-announcer",
+  "occurrences": 27,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

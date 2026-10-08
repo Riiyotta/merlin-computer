@@ -1,0 +1,15 @@
+{
+  "id": "closing-footer",
+  "name": "closing-footer",
+  "occurrences": 26,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

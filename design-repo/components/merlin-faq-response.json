@@ -1,0 +1,10 @@
+{
+  "id": "merlin-faq-response",
+  "name": "merlin-faq-response",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

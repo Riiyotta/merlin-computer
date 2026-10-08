@@ -1,0 +1,10 @@
+{
+  "id": "closing-sky",
+  "name": "closing-sky",
+  "occurrences": 26,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

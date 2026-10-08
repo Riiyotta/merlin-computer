@@ -1,0 +1,12 @@
+{
+  "id": "manifesto-mention",
+  "name": "manifesto-mention",
+  "occurrences": 7,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/manifesto"
+  }
+}

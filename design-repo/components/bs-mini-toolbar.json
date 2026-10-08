@@ -1,0 +1,12 @@
+{
+  "id": "bs-mini-toolbar",
+  "name": "bs-mini-toolbar",
+  "occurrences": 4,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

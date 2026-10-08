@@ -1,0 +1,13 @@
+{
+  "id": "legal-section",
+  "name": "legal-section",
+  "occurrences": 22,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}

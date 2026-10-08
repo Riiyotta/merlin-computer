@@ -1,0 +1,10 @@
+{
+  "id": "transcript-task-copy",
+  "name": "transcript-task-copy",
+  "occurrences": 3,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

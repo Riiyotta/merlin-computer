@@ -1,0 +1,16 @@
+{
+  "id": "browser-frame",
+  "name": "browser-frame",
+  "occurrences": 4,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

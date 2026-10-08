@@ -1,0 +1,10 @@
+{
+  "id": "privacy-code-character",
+  "name": "privacy-code-character",
+  "occurrences": 32,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

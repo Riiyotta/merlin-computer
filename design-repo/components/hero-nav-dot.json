@@ -1,0 +1,10 @@
+{
+  "id": "hero-nav-dot",
+  "name": "hero-nav-dot",
+  "occurrences": 3,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

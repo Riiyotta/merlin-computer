@@ -1,0 +1,12 @@
+{
+  "id": "qa-airline",
+  "name": "qa-airline",
+  "occurrences": 3,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

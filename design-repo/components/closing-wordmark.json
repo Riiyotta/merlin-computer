@@ -1,0 +1,10 @@
+{
+  "id": "closing-wordmark",
+  "name": "closing-wordmark",
+  "occurrences": 26,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

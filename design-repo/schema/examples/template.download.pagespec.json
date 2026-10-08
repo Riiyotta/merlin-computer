@@ -1,0 +1,70 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.download",
+  "route": "/download",
+  "nodes": [
+    {
+      "type": "shell.install-header",
+      "content": {
+        "images": [
+          {
+            "assetRole": "logo"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "hero.install-intro",
+      "content": {
+        "heading": "Thanks for choosing Merlin. Here’s how to get started.",
+        "body": [
+          "Your download will start automatically. Follow these steps to finish installing Merlin.",
+          "Download not starting? Download Merlin again",
+          "Download for Intel Macs"
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "features.install-merlin-in-three-steps",
+      "content": {
+        "items": [
+          {
+            "title": "Open your download",
+            "body": "Find the Merlin .dmg file in your Downloads folder and double-click it."
+          },
+          {
+            "title": "Move to Applications",
+            "body": "Drag the Merlin icon into the Applications folder beside it."
+          },
+          {
+            "title": "Open Merlin",
+            "body": "Open Merlin from Applications, and sign in to get started."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

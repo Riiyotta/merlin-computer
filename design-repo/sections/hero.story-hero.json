@@ -1,0 +1,87 @@
+{
+  "id": "hero.story-hero",
+  "category": "HERO",
+  "label": "story-hero",
+  "tag": "section",
+  "purpose": "Opens the home and pricing pages with the page's promise as an h1 (home: 'Your time. Yours again.'; pricing: 'Make room for the rest of your day.'), one supporting sentence, the primary 'GET MERLIN FOR MAC' call to action on home, and the embedded hero-corner-nav (brand mark plus Pricing/Manifesto links).",
+  "purposeIsInferred": false,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/index.html:78-109",
+      "src/pricing/index.html:52-72"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 8
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 22
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 4
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "instant-state",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/a5f02e9d0c6db7af.css",
+      "selectors": "#top .hero-title-chroma; .merlin-story .story-hero .hero-bottom, .story-hero .hero-title-line",
+      "effect": "chroma animation removed; title lines and bottom copy forced to opacity 1 / transform none (shown immediately, not animated in)"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 554,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 480,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "logo"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

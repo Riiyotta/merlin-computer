@@ -1,0 +1,12 @@
+{
+  "id": "dd-favorite",
+  "name": "dd-favorite",
+  "occurrences": 3,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

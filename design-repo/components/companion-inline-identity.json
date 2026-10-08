@@ -1,0 +1,12 @@
+{
+  "id": "companion-inline-identity",
+  "name": "companion-inline-identity",
+  "occurrences": 4,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "hero-corner-nav",
+  "name": "hero-corner-nav",
+  "occurrences": 26,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

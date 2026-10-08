@@ -1,0 +1,311 @@
+{
+  "version": "0.1.0",
+  "templates": [
+    {
+      "id": "template.home",
+      "name": "Home",
+      "routeCount": 1,
+      "chrome": "partial",
+      "routes": [
+        "/"
+      ],
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.story-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.merlin-in-your-everyday",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.used-by-professionals-at",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.routines",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.browser",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.meetings",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.companion",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.privacy",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.closing-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.pricing",
+      "name": "Pricing",
+      "routeCount": 1,
+      "chrome": "partial",
+      "routes": [
+        "/pricing"
+      ],
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.story-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "commerce.pricing-plans",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.pricing-included",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.pricing-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.closing-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.manifesto",
+      "name": "Manifesto",
+      "routeCount": 1,
+      "chrome": "partial",
+      "routes": [
+        "/manifesto"
+      ],
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.page-nav",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.manifesto",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.closing-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.download",
+      "name": "Download",
+      "routeCount": 1,
+      "chrome": "partial",
+      "routes": [
+        "/download"
+      ],
+      "nodes": [
+        {
+          "section": "shell.install-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.install-intro",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.install-merlin-in-three-steps",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.legal",
+      "name": "Legal pages",
+      "routeCount": 2,
+      "chrome": "partial",
+      "routes": [
+        "/privacy",
+        "/terms"
+      ],
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.page-nav",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.legal-content",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.closing-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog",
+      "name": "Blog",
+      "routeCount": 1,
+      "chrome": "partial",
+      "routes": [
+        "/blog"
+      ],
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.page-nav",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.blog-content",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.closing-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog-post",
+      "name": "Blog posts",
+      "routeCount": 20,
+      "chrome": "partial",
+      "routePattern": "/blog/{slug}/",
+      "routes": [
+        "/blog/the-future-of-work-is-autonomous-why-your-next-hire-might-be-an-ai-chief-of-staff",
+        "/blog/how-to-share-a-google-calendar-on-iphone-in-2025",
+        "/blog/how-to-use-google-calendar-the-complete-2025-guide",
+        "/blog/how-to-schedule-slack-messages-with-ease",
+        "/blog/microsoft-teams-vs-slack-2025-pros-cons-and-what-s-best",
+        "/blog/how-to-email-a-professor-updated-guide-with-templates-and-real-world-tips",
+        "/blog/how-to-set-an-out-of-office-in-microsoft-teams",
+        "/blog/how-to-write-a-formal-email",
+        "/blog/how-to-create-a-professional-email-address-2025-guide",
+        "/blog/how-to-end-an-email-ultimate-guide-to-professional-and-friendly-sign-offs-in-2025",
+        "/blog/what-does-cc-and-bcc-mean-in-email",
+        "/blog/best-free-transcription-software-tools-in-2025-top-speech-to-text-picks",
+        "/blog/summary-of-best-100-chatgpt-4-prompts",
+        "/blog/ai-note-taking-tools-in-2025-top-picks-trends-and-tips",
+        "/blog/sam-altman-the-startup-prodigy-steering-openai-s-quest-for-agi-and-ai-leadership",
+        "/blog/mastering-gmail-out-of-office-replies-in-2025",
+        "/blog/throwaway-email-addresses-in-2025-the-complete-guide-to-disposable-emails-for-privacy-and-spam-control",
+        "/blog/why-is-my-email-queued-and-how-to-fix-it",
+        "/blog/how-to-write-a-resignation-email-in-2025-the-ultimate-guide-for-professionals",
+        "/blog/how-to-unsend-an-email-updated-2025-guide"
+      ],
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.page-nav",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.blog-content-article",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.closing-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    }
+  ]
+}

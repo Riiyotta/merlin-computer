@@ -1,0 +1,10 @@
+{
+  "id": "hero-site-icon",
+  "name": "hero-site-icon",
+  "occurrences": 26,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hero-site-name",
+  "name": "hero-site-name",
+  "occurrences": 52,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "window-lights",
+  "name": "window-lights",
+  "occurrences": 4,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "rt-card",
+  "name": "rt-card",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

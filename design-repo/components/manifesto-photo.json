@@ -1,0 +1,12 @@
+{
+  "id": "manifesto-photo",
+  "name": "manifesto-photo",
+  "occurrences": 3,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/manifesto"
+  }
+}

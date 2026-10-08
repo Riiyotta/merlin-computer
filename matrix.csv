@@ -1,0 +1,24 @@
+section,category,templates,routes,Home,Pricing,Manifesto,Download,Legal pages,Blog,Blog posts
+shell.closing-footer,SHELL,6,26,x,x,x,,x,x,x
+shell.skip-link,SHELL,6,26,x,x,x,,x,x,x
+shell.page-nav,SHELL,4,24,,,x,,x,x,x
+content.blog-content-article,CONTENT,1,20,,,,,,,x
+hero.story-hero,HERO,2,2,x,x,,,,,
+content.legal-content,CONTENT,1,2,,,,,x,,
+commerce.pricing-plans,COMMERCE,1,1,,x,,,,,
+content.blog-content,CONTENT,1,1,,,,,,x,
+content.manifesto,CONTENT,1,1,,,x,,,,
+features.browser,FEATURES,1,1,x,,,,,,
+features.companion,FEATURES,1,1,x,,,,,,
+features.install-merlin-in-three-steps,FEATURES,1,1,,,,x,,,
+features.meetings,FEATURES,1,1,x,,,,,,
+features.merlin-in-your-everyday,FEATURES,1,1,x,,,,,,
+features.pricing-included,FEATURES,1,1,,x,,,,,
+features.privacy,FEATURES,1,1,x,,,,,,
+features.routines,FEATURES,1,1,x,,,,,,
+hero.install-intro,HERO,1,1,,,,x,,,
+proof.used-by-professionals-at,PROOF,1,1,x,,,,,,
+shell.install-header,SHELL,1,1,,,,x,,,
+support.faq,SUPPORT,1,1,x,,,,,,
+support.pricing-faq,SUPPORT,1,1,,x,,,,,
+ROUTE COUNT,,,27,1,1,1,1,2,1,20

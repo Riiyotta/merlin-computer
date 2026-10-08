@@ -1,0 +1,12 @@
+{
+  "id": "legal-document-footer",
+  "name": "legal-document-footer",
+  "occurrences": 2,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}

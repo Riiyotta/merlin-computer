@@ -1,0 +1,92 @@
+{
+  "id": "content.blog-content",
+  "category": "CONTENT",
+  "label": "blog-content",
+  "tag": "div",
+  "purpose": "Blog index body: the headline 'A little more to think about.', a featured post, and the list of all twenty posts as linked cards.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/blog/index.html:66-454"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 17
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 11
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 19,
+        "titleMaxWords": 16,
+        "bodyMaxWords": 0
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/ea3e27f6a69b5df4.css",
+      "selectors": "#top.blog_page .blog_featuredImage img, .blog_manifesto a svg, .blog_readLink svg, .blog_storyArrow, .blog_storyCopy h3",
+      "effect": "transition none, transform none on the featured image, read-link arrows and story titles"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 3728,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 4639,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 3 to 2"
+    ]
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

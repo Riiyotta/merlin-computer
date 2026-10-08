@@ -1,0 +1,15 @@
+{
+  "id": "merlin-faq-item",
+  "name": "merlin-faq-item",
+  "occurrences": 5,
+  "composedOf": [
+    "button",
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "manifesto-handwriting",
+  "name": "manifesto-handwriting",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/manifesto"
+  }
+}

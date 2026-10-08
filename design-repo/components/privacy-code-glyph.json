@@ -1,0 +1,10 @@
+{
+  "id": "privacy-code-glyph",
+  "name": "privacy-code-glyph",
+  "occurrences": 7,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

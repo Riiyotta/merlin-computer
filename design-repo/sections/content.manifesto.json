@@ -1,0 +1,90 @@
+{
+  "id": "content.manifesto",
+  "category": "CONTENT",
+  "label": "manifesto",
+  "tag": "article",
+  "purpose": "The manifesto page body: a long-form, first-person story ('Less managing. More living.') in three movements (the day we know, the room Merlin makes, your time yours to spend), illustrated with four images.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/manifesto/index.html:68-217"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 4
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 36
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 3,
+        "titleMaxWords": 8,
+        "bodyMaxWords": 34
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 4,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "none"
+    ],
+    "reducedMotionFallback": "instant-state",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/ae725ea36c48b431.css",
+      "selectors": ".manifesto-circled-yours path; .manifesto-signature.is-visible .manifesto-circled-yours path",
+      "effect": "draw-on animation removed; stroke-dashoffset 0 and opacity 1 (circle drawn in its final state)"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 6855,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 4435,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "≥1600px: opening poster padding grows to 280px top / 290px bottom",
+      "≤1023px: poster copy width becomes min(82%, 660px) and is centred; opening padding drops to 200px / 210px"
+    ],
+    "changesEvidence": "CSS @media rules in public/_next/static/css/ae725ea36c48b431.css",
+    "changesBasis": "read from the stylesheet's @media rules; the heights/columns above are separately measured at 1440px and 390px"
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "closing-bird-drift",
+  "name": "closing-bird-drift",
+  "occurrences": 78,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

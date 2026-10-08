@@ -1,0 +1,97 @@
+{
+  "id": "features.companion",
+  "category": "FEATURES",
+  "label": "companion",
+  "tag": "section",
+  "purpose": "Home-page chapter on Companion, the in-place helper: highlight text or ask about what is on screen (Option + Space) in any app, with demos in Photoshop and Finder and a rephrase-a-sentence example.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:2233-2729"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 7
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 5,
+        "maxWords": 49
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 8,
+        "maxWords": 5
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 8,
+        "assetRoles": [
+          "content-image",
+          "icon",
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/fc1769f629488e8f.css",
+      "selectors": "#top .companion-selection-action, .companion-typed-character; .companion-switch button (0a5b07db1896be06.css)",
+      "effect": "typed-character and selection-action animation removed; switch button transition none"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1876,
+      "columns": 12
+    },
+    "mobile": {
+      "heightPx": 1502,
+      "columns": 12,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "≤700px: demo captions drop to 12px and player labels to 10px; the Slack demo viewport gets an 8px radius"
+    ],
+    "changesEvidence": "CSS @media rules in public/_next/static/css/6385c293c5638848.css",
+    "changesBasis": "read from the stylesheet's @media rules; the heights/columns above are separately measured at 1440px and 390px"
+  },
+  "assetRoles": [
+    "content-image",
+    "icon",
+    "customer-logo"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

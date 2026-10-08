@@ -1,0 +1,58 @@
+{
+  "id": "support.pricing-faq",
+  "category": "SUPPORT",
+  "label": "pricing-faq",
+  "tag": "section",
+  "purpose": "Answers the plan and billing questions that block a purchase (which plan, what credits are, rollover, running out, annual option, how to get started) as six expandable question/answer pairs.",
+  "purposeIsInferred": false,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/pricing/index.html:276-359"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 7
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 6,
+        "titleMaxWords": 6,
+        "bodyMaxWords": 45
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/2abce9a6dc03269b.css",
+      "selectors": ".pricing-page *, .pricing-page :before",
+      "effect": "transition none, scroll-behavior auto across the whole pricing page"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "changes": []
+  }
+}

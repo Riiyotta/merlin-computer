@@ -1,0 +1,12 @@
+{
+  "id": "project-folder-art",
+  "name": "project-folder-art",
+  "occurrences": 4,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

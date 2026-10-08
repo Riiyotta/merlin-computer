@@ -1,0 +1,12 @@
+{
+  "id": "rt-entry",
+  "name": "rt-entry",
+  "occurrences": 8,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.legal",
+  "route": "/privacy",
+  "nodes": [
+    {
+      "type": "shell.skip-link",
+      "content": {
+        "ctas": [
+          {
+            "label": "Read privacy and control",
+            "href": "#legal-content"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.page-nav",
+      "content": {
+        "images": [
+          {
+            "assetRole": "logo"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.legal-content",
+      "content": {
+        "heading": "Privacy and control",
+        "body": [
+          "Your work is personal. Here’s how Merlin handles it, what stays on your Mac, and the choices you have.",
+          "Last updated · September 28, 2026"
+        ],
+        "ctas": [
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          }
+        ],
+        "items": [
+          {
+            "title": "On your Mac. Connected when needed.",
+            "body": "Merlin combines a desktop app with cloud services. Local files and desktop features work on your Mac, while information needed to carry out a request may be sent to Merlin’s services, AI providers, or the services you connect. Local storage does not mean that all processing happens offline."
+          },
+          {
+            "title": "The information Merlin works with.",
+            "body": "Merlin uses account information, such as your name and email address, to provide your account. Depending on the features you use, it also processes your conversations, instructions, files, meeting transcripts, and information from connected services."
+          },
+          {
+            "title": "You choose the access.",
+            "body": "Companion has separate controls for selected text, screen capture, and the folder or browser tab you’re viewing. You can manage these in Merlin’s Companion settings and in macOS System Settings. Companion can still open with less context when you decline access."
+          },
+          {
+            "title": "AI and service providers.",
+            "body": "Merlin sends the context needed for AI requests to the providers handling the request. Meeting transcription is processed by a transcription service. Connected services process information when Merlin interacts with them on your behalf. These services have their own data-handling terms."
+          },
+          {
+            "title": "Security, with care.",
+            "body": "Merlin is SOC 2 compliant. Contact team@merlin.computer for information about the report and its scope."
+          },
+          {
+            "title": "Managing and deleting your data.",
+            "body": "You can delete meetings, manage connected accounts, and delete your Merlin account from Settings. Deleting a meeting also removes its transcript and notes. Account deletion is a separate, permanent action."
+          },
+          {
+            "title": "When you use this website.",
+            "body": "The website uses analytics and advertising measurement services to understand website use and advertising performance. We use PostHog to measure page visits, referral sources, clicks, scrolling, downloads, FAQ request outcomes, and website performance. PostHog uses browser storage to recognize returning browsers and supports masked recordings of website interactions. Form inputs, FAQ questions, and generated FAQ answers are excluded from these recordings; we do not send FAQ question or answer te"
+          },
+          {
+            "title": "Questions about your privacy?",
+            "body": "Merlin Labs, Inc. provides Merlin. Email team@merlin.computer with privacy questions or requests about your personal information."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.closing-footer",
+      "content": {
+        "heading": "Your next free moment starts at 16:43",
+        "body": [
+          "In just three minutes, Merlin starts handling your to-dos. You decide what comes after."
+        ],
+        "ctas": [
+          {
+            "label": "GET MERLIN FOR MAC",
+            "href": "/download?start=1"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "background"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

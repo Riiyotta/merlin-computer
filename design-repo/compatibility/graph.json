@@ -1,0 +1,122 @@
+{
+  "version": "0.1.0",
+  "derivedFrom": "templates/templates.json and sections/*.json constraints (recomputed by verify_all.py)",
+  "rules": [
+    {
+      "id": "ONE_HERO_PER_PAGE",
+      "severity": "error",
+      "kind": "maxCategoryPerPage",
+      "category": "HERO",
+      "max": 1,
+      "exceptions": [],
+      "description": "A page has at most one HERO section. Templates that genuinely carry more are named in `exceptions`."
+    },
+    {
+      "id": "SECTION_PER_PAGE_LIMITS",
+      "severity": "error",
+      "kind": "perPageLimits",
+      "limits": {
+        "shell.skip-link": 1,
+        "hero.story-hero": 1,
+        "features.merlin-in-your-everyday": 1,
+        "proof.used-by-professionals-at": 1,
+        "features.routines": 1,
+        "features.browser": 1,
+        "features.meetings": 1,
+        "features.companion": 1,
+        "features.privacy": 1,
+        "support.faq": 1,
+        "shell.closing-footer": 1,
+        "content.manifesto": 1,
+        "shell.install-header": 1,
+        "hero.install-intro": 1,
+        "features.install-merlin-in-three-steps": 1,
+        "content.legal-content": 1,
+        "content.blog-content": 1,
+        "content.blog-content-article": 1,
+        "shell.page-nav": 1,
+        "commerce.pricing-plans": 1,
+        "features.pricing-included": 1,
+        "support.pricing-faq": 1
+      },
+      "description": "No section appears more often on one page than it does in any measured template."
+    },
+    {
+      "id": "SHELL_MUST_BE_FIRST",
+      "severity": "error",
+      "kind": "mustBeFirst",
+      "sections": [
+        "shell.skip-link",
+        "shell.install-header"
+      ],
+      "description": "Sections that opened every template they appear in must be the first node."
+    },
+    {
+      "id": "SHELL_MUST_BE_LAST",
+      "severity": "error",
+      "kind": "mustBeLast",
+      "sections": [
+        "shell.closing-footer"
+      ],
+      "description": "Sections that closed every template they appear in must be the last node."
+    },
+    {
+      "id": "NO_CONSECUTIVE_SAME_SECTION",
+      "severity": "warn",
+      "kind": "noConsecutive",
+      "sections": [],
+      "description": "These sections were never observed back-to-back."
+    },
+    {
+      "id": "NO_ADJACENT_SAME_CATEGORY",
+      "severity": "warn",
+      "kind": "noAdjacentSameCategory",
+      "exceptions": [
+        [
+          "features.merlin-in-your-everyday",
+          "proof.used-by-professionals-at"
+        ],
+        [
+          "proof.used-by-professionals-at",
+          "features.routines"
+        ],
+        [
+          "features.meetings",
+          "features.companion"
+        ],
+        [
+          "features.companion",
+          "features.privacy"
+        ],
+        [
+          "shell.skip-link",
+          "shell.page-nav"
+        ],
+        [
+          "shell.page-nav",
+          "content.manifesto"
+        ],
+        [
+          "shell.page-nav",
+          "content.legal-content"
+        ],
+        [
+          "shell.page-nav",
+          "content.blog-content"
+        ],
+        [
+          "shell.page-nav",
+          "content.blog-content-article"
+        ]
+      ],
+      "description": "Two different sections of the same category should not sit next to each other unless that exact pair was observed (named exceptions)."
+    },
+    {
+      "id": "MOTION_BUDGET",
+      "severity": "warn",
+      "kind": "maxAnimatedSections",
+      "max": 9,
+      "description": "No page has more animated sections than the most animated measured page."
+    }
+  ]
+}

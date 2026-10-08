@@ -1,0 +1,68 @@
+{
+  "id": "shell.skip-link",
+  "category": "SHELL",
+  "label": "skip-link",
+  "tag": "a",
+  "purpose": "Keyboard-accessibility affordance: an off-screen link ('Skip to plans', 'Read the blog'...) that is the first focusable element and jumps past the page chrome to the page's main content anchor. One ctas[] entry: label plus #anchor href.",
+  "purposeIsInferred": false,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 26,
+    "routes": 26,
+    "measuredFrom": [
+      "src/index.html:77-77",
+      "src/blog/index.html:51-51",
+      "src/blog/ai-note-taking-tools-in-2025-top-picks-trends-and-tips/index.html:33-33",
+      "src/blog/best-free-transcription-software-tools-in-2025-top-speech-to-text-picks/index.html:45-45",
+      "src/blog/how-to-create-a-professional-email-address-2025-guide/index.html:33-33"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 4
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "site-wide-rule",
+      "stylesheet": "public/_next/static/css/e2e0ba86a6b0d559.css",
+      "selectors": ".merlin-story *,.merlin-story :after,.merlin-story :before",
+      "effect": "animation-duration/transition-duration .01ms, scroll-behavior auto (site-wide, every page that carries .merlin-story)"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 52,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 52,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets .skip-link (grep of all stylesheets): it has no responsive behaviour"
+  },
+  "assetRoles": [],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

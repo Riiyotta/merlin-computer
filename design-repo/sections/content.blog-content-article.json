@@ -1,0 +1,91 @@
+{
+  "id": "content.blog-content-article",
+  "category": "CONTENT",
+  "label": "blog-content",
+  "tag": "article",
+  "purpose": "A single blog post: title, long-form body in headed sections, and an author byline. All twenty posts share this structure.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 20,
+    "routes": 20,
+    "measuredFrom": [
+      "src/blog/ai-note-taking-tools-in-2025-top-picks-trends-and-tips/index.html:48-407",
+      "src/blog/best-free-transcription-software-tools-in-2025-top-speech-to-text-picks/index.html:60-360",
+      "src/blog/how-to-create-a-professional-email-address-2025-guide/index.html:48-373",
+      "src/blog/how-to-email-a-professor-updated-guide-with-templates-and-real-world-tips/index.html:48-390",
+      "src/blog/how-to-end-an-email-ultimate-guide-to-professional-and-friendly-sign-offs-in-2025/index.html:48-291"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 17
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 95
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 24,
+        "titleMaxWords": 12,
+        "bodyMaxWords": 0
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 2,
+        "assetRoles": [
+          "avatar",
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "contract-default",
+      "note": "No prefers-reduced-motion rule targets this section (only .merlin-story, which has no motion here); reducedMotionFallback is the contract default, not a measured behaviour."
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 15078,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 23758,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "content-image"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

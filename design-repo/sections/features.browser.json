@@ -1,0 +1,97 @@
+{
+  "id": "features.browser",
+  "category": "FEATURES",
+  "label": "browser",
+  "tag": "section",
+  "purpose": "Home-page demonstration that Merlin can act inside a web browser: a simulated session comparing flights, ordering food and browsing a job listing, headed 'If it happens in a browser, Merlin can help.'",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:673-1521"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 17
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 12,
+        "maxWords": 17
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 4,
+        "titleMaxWords": 5,
+        "bodyMaxWords": 10
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 13,
+        "assetRoles": [
+          "avatar",
+          "content-image",
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/0a5b07db1896be06.css",
+      "selectors": ".merlin-story .browser-section *; #top .bs-stage, .bs-deck, .bs-card",
+      "effect": "transitions/animations off; the stage collapses to a static single-column deck with cards at opacity 1"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1778,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 1667,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 3 to 2"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "content-image",
+    "customer-logo"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

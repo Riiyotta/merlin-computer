@@ -1,0 +1,10 @@
+{
+  "id": "companion-app-name",
+  "name": "companion-app-name",
+  "occurrences": 3,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

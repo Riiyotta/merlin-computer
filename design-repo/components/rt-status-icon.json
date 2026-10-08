@@ -1,0 +1,12 @@
+{
+  "id": "rt-status-icon",
+  "name": "rt-status-icon",
+  "occurrences": 5,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "destination-search",
+  "name": "destination-search",
+  "occurrences": 2,
+  "composedOf": [
+    "input",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

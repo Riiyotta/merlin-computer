@@ -1,0 +1,12 @@
+{
+  "id": "ic-quantity",
+  "name": "ic-quantity",
+  "occurrences": 3,
+  "composedOf": [
+    "button"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

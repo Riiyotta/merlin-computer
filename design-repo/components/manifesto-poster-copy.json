@@ -1,0 +1,14 @@
+{
+  "id": "manifesto-poster-copy",
+  "name": "manifesto-poster-copy",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/manifesto"
+  }
+}

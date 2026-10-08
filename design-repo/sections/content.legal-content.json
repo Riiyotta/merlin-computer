@@ -1,0 +1,86 @@
+{
+  "id": "content.legal-content",
+  "category": "CONTENT",
+  "label": "legal-content",
+  "tag": "div",
+  "purpose": "Body of the Privacy and Terms pages: a dated legal document ('Last updated') with a page title, an intro, a contents index and plain-language policy sections.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/privacy/index.html:66-141",
+      "src/terms/index.html:66-212"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 19
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 1
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 14,
+        "titleMaxWords": 6,
+        "bodyMaxWords": 70
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/e261c04d0a2d5dfe.css",
+      "selectors": "#top .legal-contents a, #top .legal-tabs a",
+      "effect": "link transition none, transform none"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 5810,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 7911,
+      "columns": 14,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 1 to 14",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

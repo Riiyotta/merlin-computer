@@ -1,0 +1,284 @@
+{
+  "version": "1",
+  "sections": [
+    "commerce.pricing-plans",
+    "content.blog-content",
+    "content.blog-content-article",
+    "content.legal-content",
+    "content.manifesto",
+    "features.browser",
+    "features.companion",
+    "features.install-merlin-in-three-steps",
+    "features.meetings",
+    "features.merlin-in-your-everyday",
+    "features.pricing-included",
+    "features.privacy",
+    "features.routines",
+    "hero.install-intro",
+    "hero.story-hero",
+    "proof.used-by-professionals-at",
+    "shell.closing-footer",
+    "shell.install-header",
+    "shell.page-nav",
+    "shell.skip-link",
+    "support.faq",
+    "support.pricing-faq"
+  ],
+  "components": [
+    "ab-field",
+    "browser-demo",
+    "browser-frame",
+    "browser-site",
+    "bs-card",
+    "bs-card-brand",
+    "bs-card-slot",
+    "bs-mini-toolbar",
+    "bs-preview",
+    "bs-preview-size",
+    "closing-beach",
+    "closing-bird",
+    "closing-bird-drift",
+    "closing-bird-shape",
+    "closing-bird-track",
+    "closing-brand",
+    "closing-clock-time",
+    "closing-copyright",
+    "closing-footer",
+    "closing-footer-links",
+    "closing-invitation",
+    "closing-main",
+    "closing-sky",
+    "closing-start-time",
+    "closing-wordmark",
+    "companion-app-name",
+    "companion-context-word",
+    "companion-inline-icon",
+    "companion-inline-identity",
+    "companion-selected-line",
+    "companion-selection-action",
+    "context-app-tile",
+    "context-email-tool",
+    "context-inline-identity",
+    "context-inline-initials",
+    "dd-delivery",
+    "dd-favorite",
+    "dd-restaurant",
+    "dd-restaurant-select",
+    "destination-page",
+    "destination-search",
+    "download-arrow",
+    "download-button",
+    "handoff-title-highlight",
+    "hero-bottom",
+    "hero-corner-links",
+    "hero-corner-nav",
+    "hero-nav-dot",
+    "hero-site-icon",
+    "hero-site-name",
+    "hero-title-line",
+    "ic-product",
+    "ic-quantity",
+    "ic-stock",
+    "icon",
+    "install-art",
+    "install-step-heading",
+    "legal-columns",
+    "legal-contents",
+    "legal-contents-label",
+    "legal-date",
+    "legal-document",
+    "legal-document-footer",
+    "legal-heading",
+    "legal-navigation",
+    "legal-prose",
+    "legal-section",
+    "legal-sidebar",
+    "legal-tabs",
+    "manifesto-handwriting",
+    "manifesto-handwritten-note",
+    "manifesto-mention",
+    "manifesto-photo",
+    "manifesto-poster-copy",
+    "merlin-faq-form",
+    "merlin-faq-input-row",
+    "merlin-faq-item",
+    "merlin-faq-response",
+    "merlin-story",
+    "next-route-announcer",
+    "pricing-plan",
+    "pricing-plan-description",
+    "pricing-plan-details",
+    "pricing-plan-price",
+    "privacy-code-character",
+    "privacy-code-glyph",
+    "privacy-headline-line",
+    "privacy-trust-card",
+    "project-capsule-icon",
+    "project-file-lines",
+    "project-folder-art",
+    "project-folder-item",
+    "project-folder-sheet",
+    "qa-airline",
+    "qa-fare",
+    "qa-flight",
+    "qa-flight-details",
+    "qa-flight-info",
+    "qa-flight-path",
+    "qa-flight-times",
+    "qa-select",
+    "rt-card",
+    "rt-duration",
+    "rt-entry",
+    "rt-node",
+    "rt-status-icon",
+    "rt-status-swap",
+    "rt-tool-label",
+    "rt-tool-meta",
+    "rt-tool-toggle",
+    "site-container",
+    "skip-link",
+    "story-artifact-icons",
+    "story-hero",
+    "story-inline-artifact",
+    "story-section",
+    "story-section-label",
+    "transcript-control-icon",
+    "transcript-task",
+    "transcript-task-copy",
+    "window-lights"
+  ],
+  "primitives": [
+    "button",
+    "form",
+    "heading",
+    "image",
+    "input",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "nodeProperties": [
+    "type",
+    "content",
+    "motion"
+  ],
+  "contentFields": {
+    "commerce.pricing-plans": [
+      "body",
+      "ctas",
+      "items"
+    ],
+    "content.blog-content": [
+      "heading",
+      "subheading",
+      "body",
+      "items",
+      "images"
+    ],
+    "content.blog-content-article": [
+      "heading",
+      "body",
+      "items",
+      "images"
+    ],
+    "content.legal-content": [
+      "heading",
+      "body",
+      "ctas",
+      "items"
+    ],
+    "content.manifesto": [
+      "heading",
+      "body",
+      "items",
+      "images"
+    ],
+    "features.browser": [
+      "heading",
+      "body",
+      "ctas",
+      "items",
+      "images"
+    ],
+    "features.companion": [
+      "heading",
+      "subheading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "features.install-merlin-in-three-steps": [
+      "items",
+      "images"
+    ],
+    "features.meetings": [
+      "heading",
+      "subheading",
+      "body",
+      "ctas",
+      "items",
+      "images"
+    ],
+    "features.merlin-in-your-everyday": [
+      "body",
+      "ctas",
+      "images"
+    ],
+    "features.pricing-included": [
+      "heading",
+      "body",
+      "items"
+    ],
+    "features.privacy": [
+      "heading",
+      "body",
+      "items"
+    ],
+    "features.routines": [
+      "ctas",
+      "items",
+      "images"
+    ],
+    "hero.install-intro": [
+      "heading",
+      "body"
+    ],
+    "hero.story-hero": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "proof.used-by-professionals-at": [
+      "body",
+      "images"
+    ],
+    "shell.closing-footer": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "shell.install-header": [
+      "images"
+    ],
+    "shell.page-nav": [
+      "images",
+      "ctas"
+    ],
+    "shell.skip-link": [
+      "ctas"
+    ],
+    "support.faq": [
+      "heading",
+      "body",
+      "ctas",
+      "items"
+    ],
+    "support.pricing-faq": [
+      "heading",
+      "items"
+    ]
+  }
+}

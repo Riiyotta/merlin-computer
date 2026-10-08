@@ -1,0 +1,12 @@
+{
+  "id": "legal-tabs",
+  "name": "legal-tabs",
+  "occurrences": 2,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}

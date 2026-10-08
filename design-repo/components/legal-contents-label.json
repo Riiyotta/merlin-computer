@@ -1,0 +1,10 @@
+{
+  "id": "legal-contents-label",
+  "name": "legal-contents-label",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}

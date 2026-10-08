@@ -1,0 +1,83 @@
+{
+  "id": "support.faq",
+  "category": "SUPPORT",
+  "label": "faq",
+  "tag": "section",
+  "purpose": "Home-page FAQ 'Good questions. Clear answers.': a short list of getting-started and capability questions (what Merlin helps with, what is needed, own browser, how Companion works) plus an 'ask Merlin' prompt for anything else.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:2923-3021"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 4
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 10
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 8
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 5,
+        "titleMaxWords": 8,
+        "bodyMaxWords": 39
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/f7c0a2656765fcca.css",
+      "selectors": "#top .merlin-faq-input-row, .merlin-faq-input-row button",
+      "effect": "input-row transitions removed"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 805,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 858,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

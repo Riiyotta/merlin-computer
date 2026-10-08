@@ -1,0 +1,88 @@
+{
+  "id": "features.routines",
+  "category": "FEATURES",
+  "label": "routines",
+  "tag": "section",
+  "purpose": "Home-page story chapter 'First, a little context.': shows Merlin pulling context from connected apps (Gmail, Slack, Calendar, Linear, Notion, Granola) into a catch-up and a recurring routine, with a pause-routine control.",
+  "purposeIsInferred": false,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:164-672"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 2
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 2,
+        "titleMaxWords": 5,
+        "bodyMaxWords": 16
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 19,
+        "assetRoles": [
+          "content-image",
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured",
+      "stylesheet": "public/_next/static/css/0a5b07db1896be06.css",
+      "selectors": "#top .rt-*; .merlin-story .routines-section .rd-workspace *",
+      "effect": "animation and transition set to none inside the routines workspace; context-app tiles also transition:none/transform:none (6385c293c5638848.css)"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 2173,
+      "columns": 6
+    },
+    "mobile": {
+      "heightPx": 2772,
+      "columns": 6,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "≥1400px: workspace grid is 210px sidebar / 1fr / 1.12fr with 36px 40px result padding",
+      "≤700px: workspace becomes a single flex column and sidebar buttons shrink to 11px"
+    ],
+    "changesEvidence": "CSS @media rules in public/_next/static/css/6385c293c5638848.css",
+    "changesBasis": "read from the stylesheet's @media rules; the heights/columns above are separately measured at 1440px and 390px"
+  },
+  "assetRoles": [
+    "content-image",
+    "customer-logo"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

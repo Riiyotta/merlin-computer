@@ -1,0 +1,12 @@
+{
+  "id": "closing-start-time",
+  "name": "closing-start-time",
+  "occurrences": 26,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

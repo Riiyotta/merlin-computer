@@ -1,0 +1,12 @@
+{
+  "id": "context-inline-identity",
+  "name": "context-inline-identity",
+  "occurrences": 5,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

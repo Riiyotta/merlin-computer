@@ -1,0 +1,10 @@
+{
+  "id": "rt-duration",
+  "name": "rt-duration",
+  "occurrences": 5,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,1621 @@
+{
+  "version": "0.1.0",
+  "sourceIsLiveSite": true,
+  "defaultPolicy": "Assets are evidence from a real, live site. Do not reuse without licence review; never reproduce real logos, real people's photos or proprietary content.",
+  "roles": {
+    "logo": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "description": "Merlin's own brand mark only (dock icon, site header mark). Never used for another company's logo.",
+      "licensing": "Use the exact supplied file. Never redraw, recolour, or invent a variant.",
+      "observed": 2
+    },
+    "customer-logo": {
+      "generationPolicy": "must-not-fabricate",
+      "pinned": true,
+      "description": "Third-party company or product logos shown as social proof, integrations or app tiles (Notion, Salesforce, Harvard, HubSpot, McKinsey, Gmail, Slack, Linear, DoorDash, Qatar...).",
+      "licensing": "Real trademarks. A generator must never create or reproduce a real company's logo; use an explicit placeholder.",
+      "observed": 16
+    },
+    "avatar": {
+      "generationPolicy": "must-not-fabricate",
+      "pinned": true,
+      "description": "Photos of real people (customers, team, authors).",
+      "licensing": "Real people's likeness. Never generate or reuse a real person's photo; use a neutral placeholder.",
+      "observed": 4
+    },
+    "icon": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Small glyphs (<=48px) used as UI or feature markers.",
+      "licensing": "Generic glyphs may be generated; do not copy a proprietary icon set verbatim.",
+      "observed": 5
+    },
+    "illustration": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Large vector artwork.",
+      "licensing": "May be regenerated in the same style; do not reproduce the original artwork.",
+      "observed": 0
+    },
+    "background": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Full-bleed or decorative backgrounds.",
+      "licensing": "May be regenerated; do not reuse the original file.",
+      "observed": 1
+    },
+    "hero-image": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Large image in the page-opening block.",
+      "licensing": "May be regenerated; do not reproduce real product or customer content.",
+      "observed": 0
+    },
+    "content-image": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "description": "Other in-page imagery (screenshots, photos, cards).",
+      "licensing": "May be regenerated; never include real customer data, names or proprietary UI.",
+      "observed": 137
+    },
+    "animation": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": false,
+      "description": "Rive / Lottie animation files that drive canvas animations.",
+      "licensing": "The site's own animation assets. Reuse only the supplied file; never recreate or imitate it for a different brand.",
+      "observed": 0
+    },
+    "video": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": false,
+      "description": "Video files or embeds.",
+      "licensing": "Reuse only the supplied file; never fabricate footage of real products or people.",
+      "observed": 1
+    },
+    "font": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "description": "Web font files.",
+      "licensing": "Fonts carry their own licence; reuse only as shipped and review the licence before redistribution.",
+      "observed": 7
+    },
+    "live-embed": {
+      "generationPolicy": "must-not-reuse-live-endpoint",
+      "pinned": true,
+      "description": "Live third-party iframes and form endpoints.",
+      "licensing": "Never point generated pages at the original site's live endpoints (forms, widgets).",
+      "observed": 0
+    },
+    "founder-contact-email": {
+      "generationPolicy": "must-not-reuse-live-endpoint",
+      "pinned": true,
+      "description": "A real mailto contact address (e.g. a founder or support email) exposed in page copy.",
+      "licensing": "A real, live inbox. Generated pages must not reuse the original address; use a placeholder.",
+      "observed": 1
+    }
+  },
+  "generationPolicies": [
+    "may-generate-new",
+    "must-reuse-exact",
+    "must-not-fabricate",
+    "must-not-reuse-live-endpoint"
+  ],
+  "assets": [
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/2d80d61d16ded03ecff8c507fb307413300e11bd-4000x6000__0562ba19.png",
+      "bytes": 3624310,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-use-google-calendar-the-complete-2025-guide",
+        "section": "content.blog-content-article",
+        "rendered": "800x600"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/2d80d61d16ded03ecff8c507fb307413300e11bd-4000x6000__1edfb6ad.png",
+      "bytes": 3624310,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/0edde060525bfffd0da76d1af294a13ba008fee8-5451x3634__0562ba19.png",
+      "bytes": 3476391,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-email-a-professor-updated-guide-with-templates-and-real-world-tips",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/0edde060525bfffd0da76d1af294a13ba008fee8-5451x3634__1edfb6ad.png",
+      "bytes": 3476391,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/4a8179fab79eea20c4170f4e6aabeab9dcf547e4-6016x4016__0562ba19.png",
+      "bytes": 3121311,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/ai-note-taking-tools-in-2025-top-picks-trends-and-tips",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/4a8179fab79eea20c4170f4e6aabeab9dcf547e4-6016x4016__1edfb6ad.png",
+      "bytes": 3121311,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/fc6e108b06f6961b9774efeeb2c4e2cd9ecca16e-4256x2848__0562ba19.png",
+      "bytes": 3031275,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-end-an-email-ultimate-guide-to-professional-and-friendly-sign-offs-in-2025",
+        "section": "content.blog-content-article",
+        "rendered": "800x536"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/fc6e108b06f6961b9774efeeb2c4e2cd9ecca16e-4256x2848__1edfb6ad.png",
+      "bytes": 3031275,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/0186b88ed8ad0144ed2d2d2af198a36da945627f-3000x2000__0562ba19.png",
+      "bytes": 3003227,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/mastering-gmail-out-of-office-replies-in-2025",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/0186b88ed8ad0144ed2d2d2af198a36da945627f-3000x2000__1edfb6ad.png",
+      "bytes": 3003227,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/d8830b161a09ae3ce909005913361e0966154777-6000x4000__0562ba19.png",
+      "bytes": 2635693,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-create-a-professional-email-address-2025-guide",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/d8830b161a09ae3ce909005913361e0966154777-6000x4000__1edfb6ad.png",
+      "bytes": 2635693,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/2f0d0b4c886bdc62a088aa91b6c310eb933044ae-5041x3361__0562ba19.png",
+      "bytes": 2617702,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/what-does-cc-and-bcc-mean-in-email",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/2f0d0b4c886bdc62a088aa91b6c310eb933044ae-5041x3361__1edfb6ad.png",
+      "bytes": 2617702,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/d93471c0821471c29e15d6cb729a0583799a0b77-3840x2160__0562ba19.png",
+      "bytes": 2440955,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-set-an-out-of-office-in-microsoft-teams",
+        "section": "content.blog-content-article",
+        "rendered": "800x450"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/d93471c0821471c29e15d6cb729a0583799a0b77-3840x2160__1edfb6ad.png",
+      "bytes": 2440955,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/6da73611fb8ac028c99674b56a0a934b3c0801e4-4896x3264__0562ba19.png",
+      "bytes": 2383947,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/summary-of-best-100-chatgpt-4-prompts",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/6da73611fb8ac028c99674b56a0a934b3c0801e4-4896x3264__1edfb6ad.png",
+      "bytes": 2383947,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/dee5fceb218c836ac84c9546b2eb23281f4eed69-5796x4160__0562ba19.png",
+      "bytes": 2338344,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-share-a-google-calendar-on-iphone-in-2025",
+        "section": "content.blog-content-article",
+        "rendered": "800x574"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/dee5fceb218c836ac84c9546b2eb23281f4eed69-5796x4160__1edfb6ad.png",
+      "bytes": 2338344,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/27ae1122939630921edc827437ca027bc7479235-6000x4000__0562ba19.png",
+      "bytes": 2244580,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/microsoft-teams-vs-slack-2025-pros-cons-and-what-s-best",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/27ae1122939630921edc827437ca027bc7479235-6000x4000__1edfb6ad.png",
+      "bytes": 2244580,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/fbd232e60d3438b00b3956bfc2b7ef469fabfc1b-5811x3879__0562ba19.png",
+      "bytes": 2166365,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/best-free-transcription-software-tools-in-2025-top-speech-to-text-picks",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/fbd232e60d3438b00b3956bfc2b7ef469fabfc1b-5811x3879__1edfb6ad.png",
+      "bytes": 2166365,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "audio/merlin-introduction.mp3",
+      "bytes": 2029539,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/ba2d9b5b37c77a538c5ac312472d6fe87250f722-6016x4016__0562ba19.png",
+      "bytes": 1948155,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-schedule-slack-messages-with-ease",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/ba2d9b5b37c77a538c5ac312472d6fe87250f722-6016x4016__1edfb6ad.png",
+      "bytes": 1948155,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/b4e6e33193cc7b98d31fea60ef2b9e9a45d86e01-2311x1500__0562ba19.png",
+      "bytes": 1862731,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/throwaway-email-addresses-in-2025-the-complete-guide-to-disposable-emails-for-privacy-and-spam-control",
+        "section": "content.blog-content-article",
+        "rendered": "800x520"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/b4e6e33193cc7b98d31fea60ef2b9e9a45d86e01-2311x1500__1edfb6ad.png",
+      "bytes": 1862731,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/a274af535530ca349767bd47220c54e8dc848edf-2250x1500__0562ba19.png",
+      "bytes": 1795469,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-write-a-resignation-email-in-2025-the-ultimate-guide-for-professionals",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/a274af535530ca349767bd47220c54e8dc848edf-2250x1500__1edfb6ad.png",
+      "bytes": 1795469,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/558fc0c7fe8a52b9ff87167aae83fa314a0b6716-2250x1500__0562ba19.png",
+      "bytes": 1730419,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-unsend-an-email-updated-2025-guide",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/558fc0c7fe8a52b9ff87167aae83fa314a0b6716-2250x1500__1edfb6ad.png",
+      "bytes": 1730419,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/f4f954e7b9c5cf6622f241e68c8d120265d44d26-6016x4016__0562ba19.png",
+      "bytes": 1522126,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/how-to-write-a-formal-email",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/f4f954e7b9c5cf6622f241e68c8d120265d44d26-6016x4016__1edfb6ad.png",
+      "bytes": 1522126,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "download/move-to-applications.png",
+      "bytes": 1217532,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "download/launch-merlin.png",
+      "bytes": 1211020,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "download/open-download.png",
+      "bytes": 1201615,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/94eb165b506d2a01d9d6f4d3a1f26f5ab5b8e92b-1200x800__0562ba19.png",
+      "bytes": 1033550,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/why-is-my-email-queued-and-how-to-fix-it",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/94eb165b506d2a01d9d6f4d3a1f26f5ab5b8e92b-1200x800__1edfb6ad.png",
+      "bytes": 1033550,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/4b157eb847cc6dfe314d9b7e4f398224d5cb6b21-700x467__0562ba19.png",
+      "bytes": 878720,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog/sam-altman-the-startup-prodigy-steering-openai-s-quest-for-agi-and-ai-leadership",
+        "section": "content.blog-content-article",
+        "rendered": "800x534"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/4b157eb847cc6dfe314d9b7e4f398224d5cb6b21-700x467__1edfb6ad.png",
+      "bytes": 878720,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "story/quiet-lakeside.webp",
+      "bytes": 720432,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.merlin-in-your-everyday",
+        "rendered": "1284x894"
+      }
+    },
+    {
+      "path": "_next/image__78c62481",
+      "bytes": 480814,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__cef6b89e",
+      "bytes": 480814,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__b5c4c2af",
+      "bytes": 480814,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__ea264b49",
+      "bytes": 425552,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__38676a34",
+      "bytes": 425552,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__28343015",
+      "bytes": 425552,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/static/media/3c6a8fcb177aeedf-s.p.ttf",
+      "bytes": 403648,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "fonts/Caveat.ttf",
+      "bytes": 403648,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_next/image__e72db335",
+      "bytes": 396341,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__523da0dd",
+      "bytes": 396341,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__f286347a",
+      "bytes": 396341,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__e886adf5",
+      "bytes": 338893,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__d604f50d",
+      "bytes": 315622,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__9765cc01",
+      "bytes": 314970,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__4b84036c",
+      "bytes": 307266,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "story/handmade/mark.webp",
+      "bytes": 299748,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.companion",
+        "rendered": "271x271"
+      }
+    },
+    {
+      "path": "_next/image__ec740716",
+      "bytes": 280370,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "story/handmade/companion.webp",
+      "bytes": 236458,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.companion",
+        "rendered": "313x391"
+      }
+    },
+    {
+      "path": "merlin-dock.png",
+      "bytes": 230878,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__22aed077",
+      "bytes": 228092,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "story/handmade/meeting-scene.webp",
+      "bytes": 218096,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.meetings",
+        "rendered": "585x798"
+      }
+    },
+    {
+      "path": "footer-beach-ascii.svg",
+      "bytes": 193921,
+      "role": "background",
+      "evidence": {
+        "route": "/",
+        "section": "shell.closing-footer",
+        "rendered": "744x576"
+      }
+    },
+    {
+      "path": "_next/image__86f2b8c8",
+      "bytes": 172280,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__4a492dd2",
+      "bytes": 172280,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__b35ce83b",
+      "bytes": 172280,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__03e506f6",
+      "bytes": 171679,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__779746fa",
+      "bytes": 171679,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__b97b69f6",
+      "bytes": 171679,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__75f45cbf",
+      "bytes": 170650,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "story/handmade/studio.webp",
+      "bytes": 165502,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.routines",
+        "rendered": "403x403"
+      }
+    },
+    {
+      "path": "fonts/open-runde-500.woff2",
+      "bytes": 165396,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_next/image__a619472a",
+      "bytes": 163674,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "fonts/open-runde-600.woff2",
+      "bytes": 162732,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "fonts/open-runde-700.woff2",
+      "bytes": 162468,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "fonts/open-runde-400.woff2",
+      "bytes": 154604,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_next/image__3d275502",
+      "bytes": 148230,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "story/handmade/meeting.webp",
+      "bytes": 145150,
+      "role": "avatar",
+      "evidence": {
+        "route": "/",
+        "section": "features.meetings",
+        "rendered": "28x28"
+      }
+    },
+    {
+      "path": "story/handmade/hero-beach-reading.webp",
+      "bytes": 141544,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.blog-content",
+        "rendered": "561x420"
+      }
+    },
+    {
+      "path": "_next/image__a16fc927",
+      "bytes": 140253,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__9ef8e8c3",
+      "bytes": 128431,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__5988d7f3",
+      "bytes": 128431,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__d6159aa3",
+      "bytes": 128431,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__2efcdbde",
+      "bytes": 119170,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__afd392f7",
+      "bytes": 119170,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__9746f9bb",
+      "bytes": 119170,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__2e34edeb",
+      "bytes": 117429,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__8643cfb4",
+      "bytes": 117185,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "browser/veggie-bowls.webp",
+      "bytes": 115898,
+      "role": "avatar",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "119x10"
+      }
+    },
+    {
+      "path": "_next/image__b37fdd61",
+      "bytes": 113791,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__bf428486",
+      "bytes": 109050,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__1c2d3cc9",
+      "bytes": 108448,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__9dbe7518",
+      "bytes": 108029,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__29033753",
+      "bytes": 107419,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__2bfd3f16",
+      "bytes": 97880,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__d997dc7e",
+      "bytes": 97880,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__92eb3be6",
+      "bytes": 97880,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__acf93d2d",
+      "bytes": 97880,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__7989024b",
+      "bytes": 97880,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__9fc70ed2",
+      "bytes": 90947,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "browser/grain-bowls.webp",
+      "bytes": 90128,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "167x12"
+      }
+    },
+    {
+      "path": "_next/image__d7ac5e8a",
+      "bytes": 88396,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__5f76c9ef",
+      "bytes": 80678,
+      "role": "content-image",
+      "evidence": {
+        "route": "/manifesto",
+        "section": "content.manifesto",
+        "rendered": "880x587"
+      }
+    },
+    {
+      "path": "_next/image__f451cd80",
+      "bytes": 79174,
+      "role": "content-image",
+      "evidence": {
+        "route": "/manifesto",
+        "section": "content.manifesto",
+        "rendered": "880x587"
+      }
+    },
+    {
+      "path": "_next/image__38fbe17b",
+      "bytes": 78876,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__54837a7e",
+      "bytes": 69004,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "fonts/Exposure.woff2",
+      "bytes": 68544,
+      "role": "font",
+      "evidence": {
+        "note": "loaded by the page's CSS"
+      }
+    },
+    {
+      "path": "_next/image__7faae653",
+      "bytes": 66323,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__0a9ae00a",
+      "bytes": 60596,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__848f9568",
+      "bytes": 58718,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__d4bb0c69",
+      "bytes": 57344,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__bdc77954",
+      "bytes": 57075,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__748effac",
+      "bytes": 51754,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__f52542a3",
+      "bytes": 51040,
+      "role": "content-image",
+      "evidence": {
+        "route": "/manifesto",
+        "section": "content.manifesto",
+        "rendered": "880x587"
+      }
+    },
+    {
+      "path": "_next/image__0a545c53",
+      "bytes": 47825,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__24a2bbd4",
+      "bytes": 46060,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__cf51e60e",
+      "bytes": 46005,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__ebc69ed5",
+      "bytes": 44662,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "browser/avocado.webp",
+      "bytes": 42696,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "87x11"
+      }
+    },
+    {
+      "path": "_next/image__ddcb79e4",
+      "bytes": 39907,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__49953f5e",
+      "bytes": 39842,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "browser/green-bowl.webp",
+      "bytes": 36554,
+      "role": "avatar",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "118x10"
+      }
+    },
+    {
+      "path": "_next/image__2551a40f",
+      "bytes": 35714,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__b2b8fee3",
+      "bytes": 31379,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "harvard.svg",
+      "bytes": 27772,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.used-by-professionals-at",
+        "rendered": "96x36"
+      }
+    },
+    {
+      "path": "_next/image__add14ce6",
+      "bytes": 19709,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__6a838c55",
+      "bytes": 18723,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__8553ef40",
+      "bytes": 18261,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "browser/qatar-logo.webp",
+      "bytes": 17614,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "59x23"
+      }
+    },
+    {
+      "path": "browser/oat-milk.webp",
+      "bytes": 17434,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "88x11"
+      }
+    },
+    {
+      "path": "_next/image__e6e7e1d2",
+      "bytes": 17226,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__30bfc776",
+      "bytes": 14427,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__6248a1e1",
+      "bytes": 14224,
+      "role": "content-image",
+      "evidence": {
+        "route": "/manifesto",
+        "section": "content.manifesto",
+        "rendered": "163x163"
+      }
+    },
+    {
+      "path": "footer-bird-ascii-fast.svg",
+      "bytes": 13873,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "footer-bird-ascii.svg",
+      "bytes": 13855,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "footer-bird-ascii-slow.svg",
+      "bytes": 13853,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "brand-logos/linear.png",
+      "bytes": 12531,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.routines",
+        "rendered": "42x42"
+      }
+    },
+    {
+      "path": "brand-logos/ashby.png",
+      "bytes": 11115,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "17x4"
+      }
+    },
+    {
+      "path": "_next/image__1507ecc1",
+      "bytes": 10578,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__202cbb3e",
+      "bytes": 9904,
+      "role": "content-image",
+      "evidence": {
+        "route": "/download",
+        "section": "features.install-merlin-in-three-steps",
+        "rendered": "378x283"
+      }
+    },
+    {
+      "path": "_next/image__55e12a99",
+      "bytes": 9890,
+      "role": "content-image",
+      "evidence": {
+        "route": "/download",
+        "section": "features.install-merlin-in-three-steps",
+        "rendered": "378x283"
+      }
+    },
+    {
+      "path": "_next/image__49c98094",
+      "bytes": 7452,
+      "role": "content-image",
+      "evidence": {
+        "route": "/download",
+        "section": "features.install-merlin-in-three-steps",
+        "rendered": "378x283"
+      }
+    },
+    {
+      "path": "brand-logos/gmail.png",
+      "bytes": 4463,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.routines",
+        "rendered": "42x42"
+      }
+    },
+    {
+      "path": "merlin-app-icon.svg",
+      "bytes": 4103,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__6b38d000",
+      "bytes": 3849,
+      "role": "logo",
+      "evidence": {
+        "route": "/download",
+        "section": "shell.install-header",
+        "rendered": "30x30"
+      }
+    },
+    {
+      "path": "browser/bananas.webp",
+      "bytes": 3142,
+      "role": "content-image",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "82x16"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/379e800695c926d62ea80639359446f6bcc40178-800x800__cd7d24c5.jpg",
+      "bytes": 2950,
+      "role": "avatar",
+      "evidence": {
+        "route": "/blog/the-future-of-work-is-autonomous-why-your-next-hire-might-be-an-ai-chief-of-staff",
+        "section": "content.blog-content-article",
+        "rendered": "36x36"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/5zwi7h8a/production/379e800695c926d62ea80639359446f6bcc40178-800x800__0f96b40e.jpg",
+      "bytes": 2950,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__36f36764",
+      "bytes": 2820,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__5ac64c85",
+      "bytes": 2778,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "notion.svg",
+      "bytes": 2776,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "proof.used-by-professionals-at",
+        "rendered": "96x36"
+      }
+    },
+    {
+      "path": "brand-logos/granola.png",
+      "bytes": 2718,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.routines",
+        "rendered": "42x42"
+      }
+    },
+    {
+      "path": "brand-logos/ashby-wordmark.svg",
+      "bytes": 2650,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "46x4"
+      }
+    },
+    {
+      "path": "google-chrome.svg",
+      "bytes": 2303,
+      "role": "icon",
+      "evidence": {
+        "route": "/",
+        "section": "features.companion",
+        "rendered": "22x22"
+      }
+    },
+    {
+      "path": "brand-logos/photoshop.png",
+      "bytes": 2036,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.companion",
+        "rendered": "20x20"
+      }
+    },
+    {
+      "path": "_next/image__2f3d1faf",
+      "bytes": 1822,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__e97b2a47",
+      "bytes": 1596,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "brand-logos/google-meet.png",
+      "bytes": 1536,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.meetings",
+        "rendered": "44x44"
+      }
+    },
+    {
+      "path": "_next/image__9ddfb000",
+      "bytes": 1292,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "brand-logos/notion.png",
+      "bytes": 1194,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.routines",
+        "rendered": "48x48"
+      }
+    },
+    {
+      "path": "_next/image__f8aa53d8",
+      "bytes": 1135,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__fff7943d",
+      "bytes": 859,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "brand-logos/slack.png",
+      "bytes": 823,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.routines",
+        "rendered": "42x42"
+      }
+    },
+    {
+      "path": "brand-logos/calendar.png",
+      "bytes": 817,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.routines",
+        "rendered": "42x42"
+      }
+    },
+    {
+      "path": "_next/image__e35e6363",
+      "bytes": 616,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "brand-logos/zoom-camera.svg",
+      "bytes": 566,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.meetings",
+        "rendered": "44x44"
+      }
+    },
+    {
+      "path": "_next/image__75ffae75",
+      "bytes": 528,
+      "role": "logo",
+      "evidence": {
+        "route": "/",
+        "section": "hero.story-hero",
+        "rendered": "20x20"
+      }
+    },
+    {
+      "path": "brand-logos/finder.svg",
+      "bytes": 476,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.companion",
+        "rendered": "22x22"
+      }
+    },
+    {
+      "path": "brand-logos/doordash.png",
+      "bytes": 452,
+      "role": "customer-logo",
+      "evidence": {
+        "route": "/",
+        "section": "features.browser",
+        "rendered": "20x4"
+      }
+    },
+    {
+      "path": "_next/image__6e8a0d26",
+      "bytes": 420,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_next/image__098ff856",
+      "bytes": 419,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "mailto:team@merlin.computer",
+      "bytes": 0,
+      "role": "founder-contact-email",
+      "evidence": {
+        "route": "/",
+        "section": "shell.closing-footer",
+        "note": "mailto: link found in page content"
+      }
+    }
+  ],
+  "embeds": []
+}

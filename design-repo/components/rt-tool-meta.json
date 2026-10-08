@@ -1,0 +1,12 @@
+{
+  "id": "rt-tool-meta",
+  "name": "rt-tool-meta",
+  "occurrences": 5,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

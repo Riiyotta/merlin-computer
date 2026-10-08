@@ -1,0 +1,71 @@
+{
+  "id": "hero.install-intro",
+  "category": "HERO",
+  "label": "install-intro",
+  "tag": "section",
+  "purpose": "Download page opening: thanks the visitor, states that the download starts automatically, and offers fallbacks (download again, Intel Mac build) so a blocked download does not end the journey.",
+  "purposeIsInferred": false,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/download/index.html:54-69"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 12
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "contract-default",
+      "note": "No prefers-reduced-motion rule targets this section and the /download page does not carry .merlin-story, so the site-wide rule does not apply; reducedMotionFallback is the contract default, not a measured behaviour."
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 292,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 351,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "≥1500px: vertical margins 85px",
+      "≤900px: top margin 40px",
+      "≤620px: margin 40px auto 45px and h1 drops to 42px"
+    ],
+    "changesEvidence": "CSS @media rules in public/_next/static/css/9168513aa22c6d8a.css",
+    "changesBasis": "read from the stylesheet's @media rules; the heights/columns above are separately measured at 1440px and 390px"
+  },
+  "assetRoles": [],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

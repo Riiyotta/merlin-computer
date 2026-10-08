@@ -1,0 +1,12 @@
+{
+  "id": "transcript-control-icon",
+  "name": "transcript-control-icon",
+  "occurrences": 2,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "companion-context-word",
+  "name": "companion-context-word",
+  "occurrences": 5,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

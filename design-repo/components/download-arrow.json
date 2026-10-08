@@ -1,0 +1,12 @@
+{
+  "id": "download-arrow",
+  "name": "download-arrow",
+  "occurrences": 30,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

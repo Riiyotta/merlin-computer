@@ -1,0 +1,12 @@
+{
+  "id": "story-section-label",
+  "name": "story-section-label",
+  "occurrences": 5,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pricing-plan-description",
+  "name": "pricing-plan-description",
+  "occurrences": 3,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

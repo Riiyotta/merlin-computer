@@ -1,0 +1,10 @@
+{
+  "id": "companion-selected-line",
+  "name": "companion-selected-line",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

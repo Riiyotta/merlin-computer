@@ -1,0 +1,187 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.pricing",
+  "route": "/pricing",
+  "nodes": [
+    {
+      "type": "shell.skip-link",
+      "content": {
+        "ctas": [
+          {
+            "label": "Skip to plans",
+            "href": "#plans"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "hero.story-hero",
+      "content": {
+        "heading": "Make room for the rest of your day.",
+        "body": [
+          "Your ideas. Your to-dos. Your time back. Choose how much Merlin you need along the way."
+        ],
+        "images": [
+          {
+            "assetRole": "logo"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "instant-state"
+      }
+    },
+    {
+      "type": "commerce.pricing-plans",
+      "content": {
+        "body": [
+          "$29 / month",
+          "25,000 credits each month",
+          "All of Merlin, included",
+          "$99 / month",
+          "85,000 credits each month",
+          "All of Merlin, included",
+          "$299 / month",
+          "250,000 credits each month",
+          "All of Merlin, included"
+        ],
+        "ctas": [
+          {
+            "label": "Get Merlin for Mac",
+            "href": "/download?start=1"
+          },
+          {
+            "label": "Get Merlin for Mac",
+            "href": "/download?start=1"
+          },
+          {
+            "label": "Get Merlin for Mac",
+            "href": "/download?start=1"
+          }
+        ],
+        "items": [
+          {
+            "title": "Pro",
+            "body": "For the replies, research, and little projects that fill your week."
+          },
+          {
+            "title": "Ultra",
+            "body": "For deeper research, bigger projects, and a fuller working day."
+          },
+          {
+            "title": "Max",
+            "body": "For ambitious work and an assistant you turn to throughout the day."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "features.pricing-included",
+      "content": {
+        "heading": "All the places your day takes you.",
+        "body": [
+          "The same thoughtful assistant, wherever the work happens. Every plan comes with all of this."
+        ],
+        "items": [
+          {
+            "title": "A little more context.",
+            "body": "Find an email, catch up on Slack, and prepare for your next calendar event."
+          },
+          {
+            "title": "A hand in your browser.",
+            "body": "Book flights, order groceries, and fill out forms in your browser, with your approval."
+          },
+          {
+            "title": "Right where you are.",
+            "body": "Rewrite a reply, explain selected text, or ask about what’s on your screen with Option + Space."
+          },
+          {
+            "title": "Be there for the meeting.",
+            "body": "Record meetings, get speaker-labelled transcripts, and turn the conversation into notes and next steps."
+          },
+          {
+            "title": "From thought to a real thing.",
+            "body": "Create slide decks, spreadsheets, PDFs, and websites you can preview, edit, and share."
+          },
+          {
+            "title": "One less thing to repeat.",
+            "body": "Get a morning briefing, prepare for upcoming meetings, and receive a weekly summary on a schedule."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "support.pricing-faq",
+      "content": {
+        "heading": "A few things you might be wondering.",
+        "items": [
+          {
+            "title": "Which plan should I choose?",
+            "body": "Choose based on how much you expect to use Merlin. Pro gives you 25,000 monthly credits for everyday help. Ultra gives you 85,000 for more involved work, and Max gives you 250,000 for frequent use and bigger projects. All three include the capabilities above."
+          },
+          {
+            "title": "What are credits?",
+            "body": "Credits cover Merlin’s AI usage, including model calls and paid tools. The amount a task uses depends on the model, tools, and work involved, so one message doesn’t always use the same number of credits. Follow your balance and recent activity in Settings → Usage."
+          },
+          {
+            "title": "Do unused credits roll over?",
+            "body": "Unused included credits don’t roll over. Your allowance refreshes each month, and you can see your renewal date in Settings → Usage."
+          },
+          {
+            "title": "What happens if I run out?",
+            "body": "When your balance reaches zero, new paid work won’t start. You can check your remaining credits and renewal date in Settings → Usage, and manage your subscription in Settings → Billing."
+          },
+          {
+            "title": "Is there an annual option?",
+            "body": "Yes. Annual subscriptions save 20% on the subscription price. You receive the same monthly credit allowance as the equivalent monthly plan, and credits refresh every month. You can review the annual plan details in the app before subscribing."
+          },
+          {
+            "title": "How do I get started?",
+            "body": "Download Merlin for Mac and follow the setup in the app. Your trial starts with 2,000 credits to explore. You can choose your plan and manage billing in the app."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.closing-footer",
+      "content": {
+        "heading": "Your next free moment starts at 16:42",
+        "body": [
+          "In just three minutes, Merlin starts handling your to-dos. You decide what comes after."
+        ],
+        "ctas": [
+          {
+            "label": "GET MERLIN FOR MAC",
+            "href": "/download?start=1"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "background"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

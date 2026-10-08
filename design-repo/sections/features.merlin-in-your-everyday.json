@@ -1,0 +1,81 @@
+{
+  "id": "features.merlin-in-your-everyday",
+  "category": "FEATURES",
+  "label": "Merlin, in your everyday",
+  "tag": "section",
+  "purpose": "Shows Merlin working quietly in everyday notifications: an animated notification card with a sound toggle and a replay control, introducing the home story before the product claims begin.",
+  "purposeIsInferred": false,
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:110-140"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 3
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "site-wide-rule",
+      "stylesheet": "public/_next/static/css/e2e0ba86a6b0d559.css",
+      "selectors": ".merlin-story *,.merlin-story :after,.merlin-story :before",
+      "effect": "animation-duration/transition-duration .01ms, scroll-behavior auto (site-wide, every page that carries .merlin-story)"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 835,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 800,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 1 to 2"
+    ]
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "purposeBasis": "authored from the section's measured copy and DOM (src/); review before production use"
+}

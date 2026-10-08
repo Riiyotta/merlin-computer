@@ -1,0 +1,14 @@
+{
+  "id": "hero-bottom",
+  "name": "hero-bottom",
+  "occurrences": 2,
+  "composedOf": [
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

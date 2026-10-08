@@ -1,0 +1,2573 @@
+{
+  "version": "0.1.0",
+  "sourceProject": {
+    "url": "https://www.merlin.computer//",
+    "framework": "React+Next.js",
+    "scrapedAt": "2026-10-07T11:14:27Z",
+    "snapshotFolder": "src/"
+  },
+  "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under ../src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
+  "viewport": {
+    "desktop": "1440x900",
+    "mobile": "390x844"
+  },
+  "histograms": {
+    "colors": [
+      [
+        "rgba(0,0,0,0)",
+        9976
+      ],
+      [
+        "rgb(104,110,96)",
+        3521
+      ],
+      [
+        "rgb(69,77,61)",
+        2087
+      ],
+      [
+        "rgb(41,45,39)",
+        962
+      ],
+      [
+        "rgb(36,36,36)",
+        402
+      ],
+      [
+        "rgb(52,54,48)",
+        340
+      ],
+      [
+        "rgb(0,0,0)",
+        288
+      ],
+      [
+        "rgb(255,255,255)",
+        239
+      ],
+      [
+        "rgb(54,61,47)",
+        221
+      ],
+      [
+        "rgb(199,199,199)",
+        164
+      ],
+      [
+        "rgb(135,140,128)",
+        160
+      ],
+      [
+        "rgb(78,89,69)",
+        152
+      ],
+      [
+        "rgb(37,41,34)",
+        138
+      ],
+      [
+        "rgb(115,115,115)",
+        120
+      ],
+      [
+        "rgb(85,83,79)",
+        82
+      ],
+      [
+        "rgb(143,148,135)",
+        76
+      ],
+      [
+        "rgb(108,165,172)",
+        69
+      ],
+      [
+        "rgb(245,245,247)",
+        68
+      ],
+      [
+        "rgb(215,217,210)",
+        64
+      ],
+      [
+        "rgb(119,119,119)",
+        60
+      ],
+      [
+        "rgb(119,127,109)",
+        57
+      ],
+      [
+        "rgb(65,70,60)",
+        54
+      ],
+      [
+        "rgb(141,141,147)",
+        52
+      ],
+      [
+        "rgb(39,39,43)",
+        49
+      ],
+      [
+        "rgb(116,116,113)",
+        47
+      ],
+      [
+        "rgb(92,6,50)",
+        41
+      ],
+      [
+        "rgb(146,148,142)",
+        40
+      ],
+      [
+        "rgb(150,156,142)",
+        40
+      ],
+      [
+        "rgb(161,161,168)",
+        37
+      ],
+      [
+        "rgb(51,51,51)",
+        32
+      ],
+      [
+        "rgb(230,230,230)",
+        30
+      ],
+      [
+        "rgb(102,102,107)",
+        27
+      ],
+      [
+        "rgb(103,103,103)",
+        26
+      ],
+      [
+        "rgb(116,120,110)",
+        26
+      ],
+      [
+        "rgb(206,206,206)",
+        26
+      ],
+      [
+        "rgb(23,23,23)",
+        24
+      ],
+      [
+        "rgb(134,134,130)",
+        22
+      ],
+      [
+        "rgb(139,146,129)",
+        22
+      ],
+      [
+        "rgb(65,74,54)",
+        22
+      ],
+      [
+        "rgb(133,133,139)",
+        21
+      ],
+      [
+        "rgb(136,139,132)",
+        21
+      ],
+      [
+        "rgb(105,110,99)",
+        20
+      ],
+      [
+        "rgb(146,151,139)",
+        20
+      ],
+      [
+        "rgb(231,235,225)",
+        20
+      ],
+      [
+        "rgb(52,57,48)",
+        20
+      ],
+      [
+        "rgb(53,53,53)",
+        20
+      ],
+      [
+        "rgb(146,150,138)",
+        19
+      ],
+      [
+        "rgb(32,184,207)",
+        19
+      ],
+      [
+        "rgb(41,41,46)",
+        19
+      ],
+      [
+        "rgb(69,73,63)",
+        19
+      ],
+      [
+        "rgb(80,90,68)",
+        19
+      ],
+      [
+        "rgb(146,146,154)",
+        18
+      ],
+      [
+        "rgb(221,221,221)",
+        18
+      ],
+      [
+        "rgb(246,246,248)",
+        17
+      ],
+      [
+        "rgb(38,38,38)",
+        17
+      ],
+      [
+        "rgb(154,154,162)",
+        15
+      ],
+      [
+        "rgb(73,73,80)",
+        15
+      ],
+      [
+        "rgb(18,136,154)",
+        14
+      ],
+      [
+        "rgb(43,48,39)",
+        14
+      ],
+      [
+        "rgb(25,25,25)",
+        13
+      ],
+      [
+        "rgb(113,150,242)",
+        12
+      ],
+      [
+        "rgb(136,136,136)",
+        12
+      ],
+      [
+        "rgb(219,233,223)",
+        12
+      ],
+      [
+        "rgb(224,223,217)",
+        12
+      ],
+      [
+        "rgb(32,182,205)",
+        12
+      ],
+      [
+        "rgb(51,51,56)",
+        12
+      ],
+      [
+        "rgb(99,84,179)",
+        12
+      ],
+      [
+        "rgb(170,170,177)",
+        11
+      ],
+      [
+        "rgb(102,102,102)",
+        10
+      ],
+      [
+        "rgb(119,119,127)",
+        10
+      ],
+      [
+        "rgb(134,85,218)",
+        10
+      ],
+      [
+        "rgb(228,228,231)",
+        10
+      ],
+      [
+        "rgb(116,120,111)",
+        9
+      ],
+      [
+        "rgb(117,32,71)",
+        9
+      ],
+      [
+        "rgb(119,126,112)",
+        9
+      ],
+      [
+        "rgb(132,136,125)",
+        9
+      ],
+      [
+        "rgb(227,229,222)",
+        9
+      ],
+      [
+        "rgb(250,250,247)",
+        9
+      ],
+      [
+        "rgb(34,34,34)",
+        9
+      ],
+      [
+        "rgb(56,60,54)",
+        9
+      ]
+    ],
+    "radii": [
+      [
+        "2px",
+        65
+      ],
+      [
+        "22px",
+        47
+      ],
+      [
+        "18px",
+        26
+      ],
+      [
+        "20px",
+        16
+      ],
+      [
+        "12px",
+        13
+      ],
+      [
+        "9px",
+        12
+      ],
+      [
+        "3px",
+        11
+      ],
+      [
+        "6px",
+        11
+      ],
+      [
+        "24px",
+        9
+      ],
+      [
+        "8px",
+        7
+      ],
+      [
+        "4px",
+        6
+      ],
+      [
+        "7px",
+        6
+      ],
+      [
+        "999px",
+        5
+      ],
+      [
+        "16px",
+        4
+      ],
+      [
+        "32px",
+        4
+      ],
+      [
+        "5px",
+        3
+      ],
+      [
+        "14px",
+        2
+      ],
+      [
+        "28px",
+        2
+      ],
+      [
+        "8.96px",
+        2
+      ],
+      [
+        "10px",
+        1
+      ]
+    ],
+    "spacing": [
+      [
+        "24px",
+        2626
+      ],
+      [
+        "8px",
+        2131
+      ],
+      [
+        "4px",
+        836
+      ],
+      [
+        "5px",
+        465
+      ],
+      [
+        "32px",
+        368
+      ],
+      [
+        "16px",
+        323
+      ],
+      [
+        "40px",
+        246
+      ],
+      [
+        "12px",
+        176
+      ],
+      [
+        "14px",
+        173
+      ],
+      [
+        "10px",
+        147
+      ],
+      [
+        "26px",
+        116
+      ],
+      [
+        "20px",
+        111
+      ],
+      [
+        "7px",
+        83
+      ],
+      [
+        "30px",
+        82
+      ],
+      [
+        "48px",
+        79
+      ],
+      [
+        "3px",
+        71
+      ],
+      [
+        "28px",
+        69
+      ],
+      [
+        "6px",
+        58
+      ],
+      [
+        "44px",
+        56
+      ],
+      [
+        "57.6px",
+        56
+      ],
+      [
+        "7.68px",
+        56
+      ],
+      [
+        "31px",
+        52
+      ],
+      [
+        "93.5938px",
+        52
+      ],
+      [
+        "18px",
+        45
+      ],
+      [
+        "36px",
+        43
+      ],
+      [
+        "22px",
+        33
+      ],
+      [
+        "13px",
+        32
+      ],
+      [
+        "11px",
+        30
+      ],
+      [
+        "64px",
+        29
+      ],
+      [
+        "9px",
+        29
+      ],
+      [
+        "129.6px",
+        26
+      ],
+      [
+        "34px",
+        26
+      ],
+      [
+        "100px",
+        25
+      ],
+      [
+        "56px",
+        20
+      ],
+      [
+        "25px",
+        19
+      ],
+      [
+        "17px",
+        17
+      ],
+      [
+        "15px",
+        16
+      ],
+      [
+        "33.2969px",
+        16
+      ],
+      [
+        "72px",
+        13
+      ],
+      [
+        "19px",
+        10
+      ]
+    ],
+    "breakpoints": [
+      [
+        "700px",
+        143
+      ],
+      [
+        "767px",
+        111
+      ],
+      [
+        "1000px",
+        96
+      ],
+      [
+        "1023px",
+        85
+      ],
+      [
+        "768px",
+        58
+      ],
+      [
+        "1600px",
+        29
+      ],
+      [
+        "760px",
+        29
+      ],
+      [
+        "1700px",
+        27
+      ],
+      [
+        "699px",
+        22
+      ],
+      [
+        "600px",
+        8
+      ],
+      [
+        "999px",
+        8
+      ],
+      [
+        "900px",
+        7
+      ],
+      [
+        "1050px",
+        3
+      ],
+      [
+        "1100px",
+        3
+      ],
+      [
+        "640px",
+        3
+      ],
+      [
+        "1400px",
+        2
+      ],
+      [
+        "380px",
+        2
+      ],
+      [
+        "540px",
+        2
+      ],
+      [
+        "1450px",
+        1
+      ],
+      [
+        "1500px",
+        1
+      ],
+      [
+        "399px",
+        1
+      ],
+      [
+        "420px",
+        1
+      ],
+      [
+        "430px",
+        1
+      ],
+      [
+        "560px",
+        1
+      ],
+      [
+        "601px",
+        1
+      ],
+      [
+        "620px",
+        1
+      ],
+      [
+        "701px",
+        1
+      ],
+      [
+        "761px",
+        1
+      ],
+      [
+        "800px",
+        1
+      ]
+    ],
+    "durations": [
+      [
+        "0.16s",
+        157
+      ],
+      [
+        "0.18s",
+        130
+      ],
+      [
+        "0.12s",
+        67
+      ],
+      [
+        "13s",
+        52
+      ],
+      [
+        "23s",
+        52
+      ],
+      [
+        "3.2s",
+        52
+      ],
+      [
+        "37s",
+        52
+      ],
+      [
+        "4.7s",
+        52
+      ],
+      [
+        "8.5s",
+        52
+      ],
+      [
+        "0.36s",
+        30
+      ],
+      [
+        "0.3s",
+        23
+      ],
+      [
+        "0.14s",
+        22
+      ],
+      [
+        "4s",
+        14
+      ],
+      [
+        "0.8s",
+        12
+      ],
+      [
+        "0.22s",
+        9
+      ],
+      [
+        "0.2s",
+        6
+      ],
+      [
+        "4.5s",
+        6
+      ],
+      [
+        "0.15s",
+        2
+      ],
+      [
+        "1.6s",
+        2
+      ],
+      [
+        "3s",
+        2
+      ],
+      [
+        "0.28s",
+        1
+      ],
+      [
+        "0.45s",
+        1
+      ]
+    ],
+    "easings": [
+      [
+        "ease",
+        332
+      ],
+      [
+        "linear",
+        259
+      ],
+      [
+        "ease-in-out",
+        90
+      ],
+      [
+        "cubic-bezier(0.23, 1, 0.32, 1)",
+        77
+      ],
+      [
+        "ease-out",
+        28
+      ],
+      [
+        "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        9
+      ],
+      [
+        "cubic-bezier(0.22, 1, 0.36, 1)",
+        1
+      ]
+    ],
+    "cssVariables": {
+      "--font-open-runde": "\"Open Runde\"",
+      "--mantine-z-index-app": "100",
+      "--mantine-z-index-modal": "200",
+      "--mantine-z-index-popover": "300",
+      "--mantine-z-index-overlay": "400",
+      "--mantine-z-index-max": "9999",
+      "--mantine-scale": "1",
+      "--mantine-cursor-type": "default",
+      "--mantine-webkit-font-smoothing": "antialiased",
+      "--mantine-color-scheme": "light",
+      "--mantine-moz-font-smoothing": "grayscale",
+      "--mantine-color-white": "rgb(255,255,255)",
+      "--mantine-color-black": "rgb(0,0,0)",
+      "--mantine-line-height": "1.55",
+      "--mantine-font-family": "\"Open Runde\", sans-serif",
+      "--mantine-font-family-monospace": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace",
+      "--mantine-font-family-headings": "\"Open Runde\", sans-serif",
+      "--mantine-heading-font-weight": "700",
+      "--mantine-radius-default": "calc(0.25rem * 1)",
+      "--mantine-primary-color-0": "rgb(231,245,255)",
+      "--mantine-primary-color-1": "rgb(208,235,255)",
+      "--mantine-primary-color-2": "rgb(165,216,255)",
+      "--mantine-primary-color-3": "rgb(116,192,252)",
+      "--mantine-primary-color-4": "rgb(77,171,247)",
+      "--mantine-primary-color-5": "rgb(51,154,240)",
+      "--mantine-primary-color-6": "rgb(34,139,230)",
+      "--mantine-primary-color-7": "rgb(28,126,214)",
+      "--mantine-primary-color-8": "rgb(25,113,194)",
+      "--mantine-primary-color-9": "rgb(24,100,171)",
+      "--mantine-primary-color-filled": "rgb(34,139,230)",
+      "--mantine-primary-color-filled-hover": "rgb(28,126,214)",
+      "--mantine-primary-color-light": "rgba(34,139,230,0.1)",
+      "--mantine-primary-color-light-hover": "rgba(34,139,230,0.12)",
+      "--mantine-primary-color-light-color": "rgb(34,139,230)",
+      "--mantine-breakpoint-xs": "36em",
+      "--mantine-breakpoint-sm": "48em",
+      "--mantine-breakpoint-md": "62em",
+      "--mantine-breakpoint-lg": "75em",
+      "--mantine-breakpoint-xl": "88em",
+      "--mantine-spacing-xs": "calc(0.625rem * 1)",
+      "--mantine-spacing-sm": "calc(0.75rem * 1)",
+      "--mantine-spacing-md": "calc(1rem * 1)",
+      "--mantine-spacing-lg": "calc(1.25rem * 1)",
+      "--mantine-spacing-xl": "calc(2rem * 1)",
+      "--mantine-font-size-xs": "calc(0.75rem * 1)",
+      "--mantine-font-size-sm": "calc(0.875rem * 1)",
+      "--mantine-font-size-md": "calc(1rem * 1)",
+      "--mantine-font-size-lg": "calc(1.125rem * 1)",
+      "--mantine-font-size-xl": "calc(1.25rem * 1)",
+      "--mantine-line-height-xs": "1.4",
+      "--mantine-line-height-sm": "1.45",
+      "--mantine-line-height-md": "1.55",
+      "--mantine-line-height-lg": "1.6",
+      "--mantine-line-height-xl": "1.65",
+      "--mantine-shadow-xs": "0 calc(0.0625rem * 1) calc(0.1875rem * 1) rgba(0,0,0,0.05),0 calc(0.0625rem * 1) calc(0.125rem * 1) rgba(0,0,0,0.1)",
+      "--mantine-shadow-sm": "0 calc(0.0625rem * 1) calc(0.1875rem * 1) rgba(0,0,0,0.05),rgba(0,0,0,0.05) 0 calc(0.625rem * 1) calc(0.9375rem * 1) calc(-0.3125rem * 1),rgba(0,0,0,0.04) 0 calc(0.4375rem * 1) calc(0.4375rem * 1) calc(-0.3125rem * 1)",
+      "--mantine-shadow-md": "0 calc(0.0625rem * 1) calc(0.1875rem * 1) rgba(0,0,0,0.05),rgba(0,0,0,0.05) 0 calc(1.25rem * 1) calc(1.5625rem * 1) calc(-0.3125rem * 1),rgba(0,0,0,0.04) 0 calc(0.625rem * 1) calc(0.625rem * 1) calc(-0.3125rem * 1)",
+      "--mantine-shadow-lg": "0 calc(0.0625rem * 1) calc(0.1875rem * 1) rgba(0,0,0,0.05),rgba(0,0,0,0.05) 0 calc(1.75rem * 1) calc(1.4375rem * 1) calc(-0.4375rem * 1),rgba(0,0,0,0.04) 0 calc(0.75rem * 1) calc(0.75rem * 1) calc(-0.4375rem * 1)",
+      "--mantine-shadow-xl": "0 calc(0.0625rem * 1) calc(0.1875rem * 1) rgba(0,0,0,0.05),rgba(0,0,0,0.05) 0 calc(2.25rem * 1) calc(1.75rem * 1) calc(-0.4375rem * 1),rgba(0,0,0,0.04) 0 calc(1.0625rem * 1) calc(1.0625rem * 1) calc(-0.4375rem * 1)",
+      "--mantine-radius-xs": "calc(0.125rem * 1)",
+      "--mantine-radius-sm": "calc(0.25rem * 1)",
+      "--mantine-radius-md": "calc(0.5rem * 1)",
+      "--mantine-radius-lg": "calc(1rem * 1)",
+      "--mantine-radius-xl": "calc(2rem * 1)",
+      "--mantine-color-dark-0": "rgb(201,201,201)",
+      "--mantine-color-dark-1": "rgb(184,184,184)",
+      "--mantine-color-dark-2": "rgb(130,130,130)",
+      "--mantine-color-dark-3": "rgb(105,105,105)",
+      "--mantine-color-dark-4": "rgb(66,66,66)",
+      "--mantine-color-dark-5": "rgb(59,59,59)",
+      "--mantine-color-dark-6": "rgb(46,46,46)",
+      "--mantine-color-dark-7": "rgb(36,36,36)",
+      "--mantine-color-dark-8": "rgb(31,31,31)",
+      "--mantine-color-dark-9": "rgb(20,20,20)",
+      "--mantine-color-gray-0": "rgb(248,249,250)",
+      "--mantine-color-gray-1": "rgb(241,243,245)",
+      "--mantine-color-gray-2": "rgb(233,236,239)",
+      "--mantine-color-gray-3": "rgb(222,226,230)",
+      "--mantine-color-gray-4": "rgb(206,212,218)",
+      "--mantine-color-gray-5": "rgb(173,181,189)",
+      "--mantine-color-gray-6": "rgb(134,142,150)",
+      "--mantine-color-gray-7": "rgb(73,80,87)",
+      "--mantine-color-gray-8": "rgb(52,58,64)",
+      "--mantine-color-gray-9": "rgb(33,37,41)",
+      "--mantine-color-red-0": "rgb(255,245,245)",
+      "--mantine-color-red-1": "rgb(255,227,227)",
+      "--mantine-color-red-2": "rgb(255,201,201)",
+      "--mantine-color-red-3": "rgb(255,168,168)",
+      "--mantine-color-red-4": "rgb(255,135,135)",
+      "--mantine-color-red-5": "rgb(255,107,107)",
+      "--mantine-color-red-6": "rgb(250,82,82)",
+      "--mantine-color-red-7": "rgb(240,62,62)",
+      "--mantine-color-red-8": "rgb(224,49,49)",
+      "--mantine-color-red-9": "rgb(201,42,42)",
+      "--mantine-color-pink-0": "rgb(255,240,246)",
+      "--mantine-color-pink-1": "rgb(255,222,235)",
+      "--mantine-color-pink-2": "rgb(252,194,215)",
+      "--mantine-color-pink-3": "rgb(250,162,193)",
+      "--mantine-color-pink-4": "rgb(247,131,172)",
+      "--mantine-color-pink-5": "rgb(240,101,149)",
+      "--mantine-color-pink-6": "rgb(230,73,128)",
+      "--mantine-color-pink-7": "rgb(214,51,108)",
+      "--mantine-color-pink-8": "rgb(194,37,92)",
+      "--mantine-color-pink-9": "rgb(166,30,77)",
+      "--mantine-color-grape-0": "rgb(248,240,252)",
+      "--mantine-color-grape-1": "rgb(243,217,250)",
+      "--mantine-color-grape-2": "rgb(238,190,250)",
+      "--mantine-color-grape-3": "rgb(229,153,247)",
+      "--mantine-color-grape-4": "rgb(218,119,242)",
+      "--mantine-color-grape-5": "rgb(204,93,232)",
+      "--mantine-color-grape-6": "rgb(190,75,219)",
+      "--mantine-color-grape-7": "rgb(174,62,201)",
+      "--mantine-color-grape-8": "rgb(156,54,181)",
+      "--mantine-color-grape-9": "rgb(134,46,156)",
+      "--mantine-color-violet-0": "rgb(243,240,255)",
+      "--mantine-color-violet-1": "rgb(229,219,255)",
+      "--mantine-color-violet-2": "rgb(208,191,255)",
+      "--mantine-color-violet-3": "rgb(177,151,252)",
+      "--mantine-color-violet-4": "rgb(151,117,250)",
+      "--mantine-color-violet-5": "rgb(132,94,247)",
+      "--mantine-color-violet-6": "rgb(121,80,242)",
+      "--mantine-color-violet-7": "rgb(112,72,232)",
+      "--mantine-color-violet-8": "rgb(103,65,217)",
+      "--mantine-color-violet-9": "rgb(95,61,196)",
+      "--mantine-color-indigo-0": "rgb(237,242,255)",
+      "--mantine-color-indigo-1": "rgb(219,228,255)",
+      "--mantine-color-indigo-2": "rgb(186,200,255)",
+      "--mantine-color-indigo-3": "rgb(145,167,255)",
+      "--mantine-color-indigo-4": "rgb(116,143,252)",
+      "--mantine-color-indigo-5": "rgb(92,124,250)",
+      "--mantine-color-indigo-6": "rgb(76,110,245)",
+      "--mantine-color-indigo-7": "rgb(66,99,235)",
+      "--mantine-color-indigo-8": "rgb(59,91,219)",
+      "--mantine-color-indigo-9": "rgb(54,79,199)",
+      "--mantine-color-blue-0": "rgb(231,245,255)",
+      "--mantine-color-blue-1": "rgb(208,235,255)",
+      "--mantine-color-blue-2": "rgb(165,216,255)",
+      "--mantine-color-blue-3": "rgb(116,192,252)",
+      "--mantine-color-blue-4": "rgb(77,171,247)",
+      "--mantine-color-blue-5": "rgb(51,154,240)",
+      "--mantine-color-blue-6": "rgb(34,139,230)",
+      "--mantine-color-blue-7": "rgb(28,126,214)",
+      "--mantine-color-blue-8": "rgb(25,113,194)",
+      "--mantine-color-blue-9": "rgb(24,100,171)",
+      "--mantine-color-cyan-0": "rgb(227,250,252)",
+      "--mantine-color-cyan-1": "rgb(197,246,250)",
+      "--mantine-color-cyan-2": "rgb(153,233,242)",
+      "--mantine-color-cyan-3": "rgb(102,217,232)",
+      "--mantine-color-cyan-4": "rgb(59,201,219)",
+      "--mantine-color-cyan-5": "rgb(34,184,207)",
+      "--mantine-color-cyan-6": "rgb(21,170,191)",
+      "--mantine-color-cyan-7": "rgb(16,152,173)",
+      "--mantine-color-cyan-8": "rgb(12,133,153)",
+      "--mantine-color-cyan-9": "rgb(11,114,133)",
+      "--mantine-color-teal-0": "rgb(230,252,245)",
+      "--mantine-color-teal-1": "rgb(195,250,232)",
+      "--mantine-color-teal-2": "rgb(150,242,215)",
+      "--mantine-color-teal-3": "rgb(99,230,190)",
+      "--mantine-color-teal-4": "rgb(56,217,169)",
+      "--mantine-color-teal-5": "rgb(32,201,151)",
+      "--mantine-color-teal-6": "rgb(18,184,134)",
+      "--mantine-color-teal-7": "rgb(12,166,120)",
+      "--mantine-color-teal-8": "rgb(9,146,104)",
+      "--mantine-color-teal-9": "rgb(8,127,91)",
+      "--mantine-color-green-0": "rgb(235,251,238)",
+      "--mantine-color-green-1": "rgb(211,249,216)",
+      "--mantine-color-green-2": "rgb(178,242,187)",
+      "--mantine-color-green-3": "rgb(140,233,154)",
+      "--mantine-color-green-4": "rgb(105,219,124)",
+      "--mantine-color-green-5": "rgb(81,207,102)",
+      "--mantine-color-green-6": "rgb(64,192,87)",
+      "--mantine-color-green-7": "rgb(55,178,77)",
+      "--mantine-color-green-8": "rgb(47,158,68)",
+      "--mantine-color-green-9": "rgb(43,138,62)",
+      "--mantine-color-lime-0": "rgb(244,252,227)",
+      "--mantine-color-lime-1": "rgb(233,250,200)",
+      "--mantine-color-lime-2": "rgb(216,245,162)",
+      "--mantine-color-lime-3": "rgb(192,235,117)",
+      "--mantine-color-lime-4": "rgb(169,227,75)",
+      "--mantine-color-lime-5": "rgb(148,216,45)",
+      "--mantine-color-lime-6": "rgb(130,201,30)",
+      "--mantine-color-lime-7": "rgb(116,184,22)",
+      "--mantine-color-lime-8": "rgb(102,168,15)",
+      "--mantine-color-lime-9": "rgb(92,148,13)",
+      "--mantine-color-yellow-0": "rgb(255,249,219)",
+      "--mantine-color-yellow-1": "rgb(255,243,191)",
+      "--mantine-color-yellow-2": "rgb(255,236,153)",
+      "--mantine-color-yellow-3": "rgb(255,224,102)",
+      "--mantine-color-yellow-4": "rgb(255,212,59)",
+      "--mantine-color-yellow-5": "rgb(252,196,25)",
+      "--mantine-color-yellow-6": "rgb(250,176,5)",
+      "--mantine-color-yellow-7": "rgb(245,159,0)",
+      "--mantine-color-yellow-8": "rgb(240,140,0)",
+      "--mantine-color-yellow-9": "rgb(230,119,0)",
+      "--mantine-color-orange-0": "rgb(255,244,230)",
+      "--mantine-color-orange-1": "rgb(255,232,204)",
+      "--mantine-color-orange-2": "rgb(255,216,168)",
+      "--mantine-color-orange-3": "rgb(255,192,120)",
+      "--mantine-color-orange-4": "rgb(255,169,77)",
+      "--mantine-color-orange-5": "rgb(255,146,43)",
+      "--mantine-color-orange-6": "rgb(253,126,20)",
+      "--mantine-color-orange-7": "rgb(247,103,7)",
+      "--mantine-color-orange-8": "rgb(232,89,12)",
+      "--mantine-color-orange-9": "rgb(217,72,15)",
+      "--mantine-h1-font-size": "calc(2.125rem * 1)",
+      "--mantine-h1-line-height": "1.3",
+      "--mantine-h1-font-weight": "700",
+      "--mantine-h2-font-size": "calc(1.625rem * 1)",
+      "--mantine-h2-line-height": "1.35",
+      "--mantine-h2-font-weight": "700",
+      "--mantine-h3-font-size": "calc(1.375rem * 1)",
+      "--mantine-h3-line-height": "1.4",
+      "--mantine-h3-font-weight": "700",
+      "--mantine-h4-font-size": "calc(1.125rem * 1)",
+      "--mantine-h4-line-height": "1.45",
+      "--mantine-h4-font-weight": "700",
+      "--mantine-h5-font-size": "calc(1rem * 1)",
+      "--mantine-h5-line-height": "1.5",
+      "--mantine-h5-font-weight": "700",
+      "--mantine-h6-font-size": "calc(0.875rem * 1)",
+      "--mantine-h6-line-height": "1.5",
+      "--mantine-h6-font-weight": "700",
+      "--mantine-primary-color-contrast": "rgb(255,255,255)",
+      "--mantine-color-bright": "rgb(0,0,0)",
+      "--mantine-color-text": "rgb(0,0,0)",
+      "--mantine-color-body": "rgb(255,255,255)",
+      "--mantine-color-error": "rgb(250,82,82)",
+      "--mantine-color-placeholder": "rgb(173,181,189)",
+      "--mantine-color-anchor": "rgb(34,139,230)",
+      "--mantine-color-default": "rgb(255,255,255)",
+      "--mantine-color-default-hover": "rgb(248,249,250)",
+      "--mantine-color-default-color": "rgb(33,37,41)",
+      "--mantine-color-default-border": "rgb(206,212,218)",
+      "--mantine-color-dimmed": "rgb(134,142,150)",
+      "--mantine-color-dark-text": "rgb(46,46,46)",
+      "--mantine-color-dark-filled": "rgb(46,46,46)",
+      "--mantine-color-dark-filled-hover": "rgb(36,36,36)",
+      "--mantine-color-dark-light": "rgba(56,56,56,0.1)",
+      "--mantine-color-dark-light-hover": "rgba(56,56,56,0.12)",
+      "--mantine-color-dark-light-color": "rgb(46,46,46)",
+      "--mantine-color-dark-outline": "rgb(46,46,46)",
+      "--mantine-color-dark-outline-hover": "rgba(56,56,56,0.05)",
+      "--mantine-color-gray-text": "rgb(134,142,150)",
+      "--mantine-color-gray-filled": "rgb(134,142,150)",
+      "--mantine-color-gray-filled-hover": "rgb(73,80,87)",
+      "--mantine-color-gray-light": "rgba(134,142,150,0.1)",
+      "--mantine-color-gray-light-hover": "rgba(134,142,150,0.12)",
+      "--mantine-color-gray-light-color": "rgb(134,142,150)",
+      "--mantine-color-gray-outline": "rgb(134,142,150)",
+      "--mantine-color-gray-outline-hover": "rgba(134,142,150,0.05)",
+      "--mantine-color-red-text": "rgb(250,82,82)",
+      "--mantine-color-red-filled": "rgb(250,82,82)",
+      "--mantine-color-red-filled-hover": "rgb(240,62,62)",
+      "--mantine-color-red-light": "rgba(250,82,82,0.1)",
+      "--mantine-color-red-light-hover": "rgba(250,82,82,0.12)",
+      "--mantine-color-red-light-color": "rgb(250,82,82)",
+      "--mantine-color-red-outline": "rgb(250,82,82)",
+      "--mantine-color-red-outline-hover": "rgba(250,82,82,0.05)",
+      "--mantine-color-pink-text": "rgb(230,73,128)",
+      "--mantine-color-pink-filled": "rgb(230,73,128)",
+      "--mantine-color-pink-filled-hover": "rgb(214,51,108)",
+      "--mantine-color-pink-light": "rgba(230,73,128,0.1)",
+      "--mantine-color-pink-light-hover": "rgba(230,73,128,0.12)",
+      "--mantine-color-pink-light-color": "rgb(230,73,128)",
+      "--mantine-color-pink-outline": "rgb(230,73,128)",
+      "--mantine-color-pink-outline-hover": "rgba(230,73,128,0.05)",
+      "--mantine-color-grape-text": "rgb(190,75,219)",
+      "--mantine-color-grape-filled": "rgb(190,75,219)",
+      "--mantine-color-grape-filled-hover": "rgb(174,62,201)",
+      "--mantine-color-grape-light": "rgba(190,75,219,0.1)",
+      "--mantine-color-grape-light-hover": "rgba(190,75,219,0.12)",
+      "--mantine-color-grape-light-color": "rgb(190,75,219)",
+      "--mantine-color-grape-outline": "rgb(190,75,219)",
+      "--mantine-color-grape-outline-hover": "rgba(190,75,219,0.05)",
+      "--mantine-color-violet-text": "rgb(121,80,242)",
+      "--mantine-color-violet-filled": "rgb(121,80,242)",
+      "--mantine-color-violet-filled-hover": "rgb(112,72,232)",
+      "--mantine-color-violet-light": "rgba(121,80,242,0.1)",
+      "--mantine-color-violet-light-hover": "rgba(121,80,242,0.12)",
+      "--mantine-color-violet-light-color": "rgb(121,80,242)",
+      "--mantine-color-violet-outline": "rgb(121,80,242)",
+      "--mantine-color-violet-outline-hover": "rgba(121,80,242,0.05)",
+      "--mantine-color-indigo-text": "rgb(76,110,245)",
+      "--mantine-color-indigo-filled": "rgb(76,110,245)",
+      "--mantine-color-indigo-filled-hover": "rgb(66,99,235)",
+      "--mantine-color-indigo-light": "rgba(76,110,245,0.1)",
+      "--mantine-color-indigo-light-hover": "rgba(76,110,245,0.12)",
+      "--mantine-color-indigo-light-color": "rgb(76,110,245)",
+      "--mantine-color-indigo-outline": "rgb(76,110,245)",
+      "--mantine-color-indigo-outline-hover": "rgba(76,110,245,0.05)",
+      "--mantine-color-blue-text": "rgb(34,139,230)",
+      "--mantine-color-blue-filled": "rgb(34,139,230)",
+      "--mantine-color-blue-filled-hover": "rgb(28,126,214)",
+      "--mantine-color-blue-light": "rgba(34,139,230,0.1)",
+      "--mantine-color-blue-light-hover": "rgba(34,139,230,0.12)",
+      "--mantine-color-blue-light-color": "rgb(34,139,230)",
+      "--mantine-color-blue-outline": "rgb(34,139,230)",
+      "--mantine-color-blue-outline-hover": "rgba(34,139,230,0.05)",
+      "--mantine-color-cyan-text": "rgb(21,170,191)",
+      "--mantine-color-cyan-filled": "rgb(21,170,191)",
+      "--mantine-color-cyan-filled-hover": "rgb(16,152,173)",
+      "--mantine-color-cyan-light": "rgba(21,170,191,0.1)",
+      "--mantine-color-cyan-light-hover": "rgba(21,170,191,0.12)",
+      "--mantine-color-cyan-light-color": "rgb(21,170,191)",
+      "--mantine-color-cyan-outline": "rgb(21,170,191)",
+      "--mantine-color-cyan-outline-hover": "rgba(21,170,191,0.05)",
+      "--mantine-color-teal-text": "rgb(18,184,134)",
+      "--mantine-color-teal-filled": "rgb(18,184,134)",
+      "--mantine-color-teal-filled-hover": "rgb(12,166,120)",
+      "--mantine-color-teal-light": "rgba(18,184,134,0.1)",
+      "--mantine-color-teal-light-hover": "rgba(18,184,134,0.12)",
+      "--mantine-color-teal-light-color": "rgb(18,184,134)",
+      "--mantine-color-teal-outline": "rgb(18,184,134)",
+      "--mantine-color-teal-outline-hover": "rgba(18,184,134,0.05)",
+      "--mantine-color-green-text": "rgb(64,192,87)",
+      "--mantine-color-green-filled": "rgb(64,192,87)",
+      "--mantine-color-green-filled-hover": "rgb(55,178,77)",
+      "--mantine-color-green-light": "rgba(64,192,87,0.1)",
+      "--mantine-color-green-light-hover": "rgba(64,192,87,0.12)",
+      "--mantine-color-green-light-color": "rgb(64,192,87)",
+      "--mantine-color-green-outline": "rgb(64,192,87)",
+      "--mantine-color-green-outline-hover": "rgba(64,192,87,0.05)",
+      "--mantine-color-lime-text": "rgb(130,201,30)",
+      "--mantine-color-lime-filled": "rgb(130,201,30)",
+      "--mantine-color-lime-filled-hover": "rgb(116,184,22)",
+      "--mantine-color-lime-light": "rgba(130,201,30,0.1)",
+      "--mantine-color-lime-light-hover": "rgba(130,201,30,0.12)",
+      "--mantine-color-lime-light-color": "rgb(130,201,30)",
+      "--mantine-color-lime-outline": "rgb(130,201,30)",
+      "--mantine-color-lime-outline-hover": "rgba(130,201,30,0.05)",
+      "--mantine-color-yellow-text": "rgb(250,176,5)",
+      "--mantine-color-yellow-filled": "rgb(250,176,5)",
+      "--mantine-color-yellow-filled-hover": "rgb(245,159,0)",
+      "--mantine-color-yellow-light": "rgba(250,176,5,0.1)",
+      "--mantine-color-yellow-light-hover": "rgba(250,176,5,0.12)",
+      "--mantine-color-yellow-light-color": "rgb(250,176,5)",
+      "--mantine-color-yellow-outline": "rgb(250,176,5)",
+      "--mantine-color-yellow-outline-hover": "rgba(250,176,5,0.05)",
+      "--mantine-color-orange-text": "rgb(253,126,20)",
+      "--mantine-color-orange-filled": "rgb(253,126,20)",
+      "--mantine-color-orange-filled-hover": "rgb(247,103,7)",
+      "--mantine-color-orange-light": "rgba(253,126,20,0.1)",
+      "--mantine-color-orange-light-hover": "rgba(253,126,20,0.12)",
+      "--mantine-color-orange-light-color": "rgb(253,126,20)",
+      "--mantine-color-orange-outline": "rgb(253,126,20)",
+      "--mantine-color-orange-outline-hover": "rgba(253,126,20,0.05)"
+    }
+  },
+  "routes": [
+    {
+      "route": "/",
+      "title": "Merlin — Your AI assistant for Mac",
+      "h1": "Your time.Yours again.",
+      "template": "template.home",
+      "file": "src/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            77,
+            77
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.story-hero",
+          "tag": "section",
+          "anchor": "story-hero",
+          "lines": [
+            78,
+            109
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "features.merlin-in-your-everyday",
+          "tag": "section",
+          "anchor": "hero-life",
+          "lines": [
+            110,
+            140
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.used-by-professionals-at",
+          "tag": "section",
+          "anchor": "companies",
+          "lines": [
+            141,
+            163
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "features.routines",
+          "tag": "section",
+          "anchor": "id=\"routines\"",
+          "lines": [
+            164,
+            672
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "features.browser",
+          "tag": "section",
+          "anchor": "id=\"browser\"",
+          "lines": [
+            673,
+            1521
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "features.meetings",
+          "tag": "section",
+          "anchor": "id=\"meetings\"",
+          "lines": [
+            1522,
+            2232
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "features.companion",
+          "tag": "section",
+          "anchor": "id=\"companion\"",
+          "lines": [
+            2233,
+            2729
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "features.privacy",
+          "tag": "section",
+          "anchor": "id=\"privacy\"",
+          "lines": [
+            2730,
+            2922
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "support.faq",
+          "tag": "section",
+          "anchor": "id=\"faq\"",
+          "lines": [
+            2923,
+            3021
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            3022,
+            3103
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/pricing",
+      "title": "Plans | Merlin",
+      "h1": "Make room forthe rest of your day.",
+      "template": "template.pricing",
+      "file": "src/pricing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            51,
+            51
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.story-hero",
+          "tag": "section",
+          "anchor": "story-hero",
+          "lines": [
+            52,
+            72
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "commerce.pricing-plans",
+          "tag": "section",
+          "anchor": "pricing-plans",
+          "lines": [
+            74,
+            179
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "features.pricing-included",
+          "tag": "section",
+          "anchor": "pricing-included",
+          "lines": [
+            180,
+            275
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.pricing-faq",
+          "tag": "section",
+          "anchor": "pricing-faq",
+          "lines": [
+            276,
+            359
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            361,
+            442
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/manifesto",
+      "title": "The Merlin manifesto",
+      "h1": "Less managing.More living.",
+      "template": "template.manifesto",
+      "file": "src/manifesto/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            51,
+            51
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            52,
+            67
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.manifesto",
+          "tag": "article",
+          "anchor": "id=\"manifesto\"",
+          "lines": [
+            68,
+            217
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            218,
+            299
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/download",
+      "title": "Download Merlin for Mac",
+      "h1": "Thanks for choosing Merlin.Here’s how to get started.",
+      "template": "template.download",
+      "file": "src/download/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.install-header",
+          "tag": "header",
+          "anchor": "install-header",
+          "lines": [
+            50,
+            53
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.install-intro",
+          "tag": "section",
+          "anchor": "install-intro",
+          "lines": [
+            54,
+            69
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "features.install-merlin-in-three-steps",
+          "tag": "ol",
+          "anchor": "install-steps",
+          "lines": [
+            70,
+            105
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/privacy",
+      "title": "Privacy and control — Merlin",
+      "h1": "Privacy and control",
+      "template": "template.legal",
+      "file": "src/privacy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            51,
+            51
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            52,
+            65
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.legal-content",
+          "tag": "div",
+          "anchor": "id=\"legal-content\"",
+          "lines": [
+            66,
+            141
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            142,
+            223
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "title": "Blog — Merlin",
+      "h1": "A little moreto think about.",
+      "template": "template.blog",
+      "file": "src/blog/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            51,
+            51
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            52,
+            65
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content",
+          "tag": "div",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            66,
+            454
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            455,
+            534
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/terms",
+      "title": "Terms of Service — Merlin",
+      "h1": "Terms of Service",
+      "template": "template.legal",
+      "file": "src/terms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            51,
+            51
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            52,
+            65
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.legal-content",
+          "tag": "div",
+          "anchor": "id=\"legal-content\"",
+          "lines": [
+            66,
+            212
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            213,
+            294
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/the-future-of-work-is-autonomous-why-your-next-hire-might-be-an-ai-chief-of-staff",
+      "title": "The Future of Work is Autonomous: Why Your Next ‘Hire’ Might Be an AI Chief of Staff — Merlin",
+      "h1": "The Future of Work is Autonomous: Why Your Next ‘Hire’ Might Be an AI Chief of Staff",
+      "template": "template.blog-post",
+      "file": "src/blog/the-future-of-work-is-autonomous-why-your-next-hire-might-be-an-ai-chief-of-staff/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            32,
+            32
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            33,
+            46
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            47,
+            230
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            231,
+            321
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-share-a-google-calendar-on-iphone-in-2025",
+      "title": "How to Share a Google Calendar on iPhone in 2025 — Merlin",
+      "h1": "How to Share a Google Calendar on iPhone in 2025",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-share-a-google-calendar-on-iphone-in-2025/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            363
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            364,
+            454
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-use-google-calendar-the-complete-2025-guide",
+      "title": "How to Use Google Calendar: The Complete 2025 Guide — Merlin",
+      "h1": "How to Use Google Calendar: The Complete 2025 Guide",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-use-google-calendar-the-complete-2025-guide/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            713
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            714,
+            804
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-schedule-slack-messages-with-ease",
+      "title": "How to schedule Slack messages with ease — Merlin",
+      "h1": "How to schedule Slack messages with ease",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-schedule-slack-messages-with-ease/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            306
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            307,
+            397
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/microsoft-teams-vs-slack-2025-pros-cons-and-what-s-best",
+      "title": "Microsoft Teams vs Slack (2025): Pros, cons, and what's best — Merlin",
+      "h1": "Microsoft Teams vs Slack (2025): Pros, cons, and what's best",
+      "template": "template.blog-post",
+      "file": "src/blog/microsoft-teams-vs-slack-2025-pros-cons-and-what-s-best/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            32,
+            32
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            33,
+            46
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            47,
+            672
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            673,
+            763
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-email-a-professor-updated-guide-with-templates-and-real-world-tips",
+      "title": "How to Email a Professor: Updated Guide With Templates and Real-World Tips — Merlin",
+      "h1": "How to Email a Professor: Updated Guide With Templates and Real-World Tips",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-email-a-professor-updated-guide-with-templates-and-real-world-tips/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            390
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            391,
+            481
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-set-an-out-of-office-in-microsoft-teams",
+      "title": "How to Set an Out of Office in Microsoft Teams — Merlin",
+      "h1": "How to Set an Out of Office in Microsoft Teams",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-set-an-out-of-office-in-microsoft-teams/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            285
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            286,
+            376
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-write-a-formal-email",
+      "title": "How to Write a Formal Email — Merlin",
+      "h1": "How to Write a Formal Email",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-write-a-formal-email/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            45,
+            45
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            46,
+            59
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            60,
+            663
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            664,
+            743
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-create-a-professional-email-address-2025-guide",
+      "title": "How to Create a Professional Email Address (2025 Guide) — Merlin",
+      "h1": "How to Create a Professional Email Address (2025 Guide)",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-create-a-professional-email-address-2025-guide/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            373
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            374,
+            464
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-end-an-email-ultimate-guide-to-professional-and-friendly-sign-offs-in-2025",
+      "title": "How to End an Email: Ultimate Guide to Professional and Friendly Sign-Offs in 2025 — Merlin",
+      "h1": "How to End an Email: Ultimate Guide to Professional and Friendly Sign-Offs in 2025",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-end-an-email-ultimate-guide-to-professional-and-friendly-sign-offs-in-2025/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            291
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            292,
+            382
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/what-does-cc-and-bcc-mean-in-email",
+      "title": "What does CC and BCC mean in email? — Merlin",
+      "h1": "What does CC and BCC mean in email?",
+      "template": "template.blog-post",
+      "file": "src/blog/what-does-cc-and-bcc-mean-in-email/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            465
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            466,
+            556
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-free-transcription-software-tools-in-2025-top-speech-to-text-picks",
+      "title": "Best Free Transcription Software Tools in 2025: Top Speech-to-Text Picks — Merlin",
+      "h1": "Best Free Transcription Software Tools in 2025: Top Speech-to-Text Picks",
+      "template": "template.blog-post",
+      "file": "src/blog/best-free-transcription-software-tools-in-2025-top-speech-to-text-picks/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            45,
+            45
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            46,
+            59
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            60,
+            360
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            361,
+            440
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/summary-of-best-100-chatgpt-4-prompts",
+      "title": "Summary of Best 100 ChatGPT-4 Prompts — Merlin",
+      "h1": "Summary of Best 100 ChatGPT-4 Prompts",
+      "template": "template.blog-post",
+      "file": "src/blog/summary-of-best-100-chatgpt-4-prompts/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            812
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            813,
+            903
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ai-note-taking-tools-in-2025-top-picks-trends-and-tips",
+      "title": "AI Note-Taking Tools in 2025: Top Picks, Trends & Tips — Merlin",
+      "h1": "AI Note-Taking Tools in 2025: Top Picks, Trends & Tips",
+      "template": "template.blog-post",
+      "file": "src/blog/ai-note-taking-tools-in-2025-top-picks-trends-and-tips/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            407
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            408,
+            498
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/sam-altman-the-startup-prodigy-steering-openai-s-quest-for-agi-and-ai-leadership",
+      "title": "Sam Altman: The Startup Prodigy Steering OpenAI’s Quest for AGI and AI Leadership — Merlin",
+      "h1": "Sam Altman: The Startup Prodigy Steering OpenAI’s Quest for AGI and AI Leadership",
+      "template": "template.blog-post",
+      "file": "src/blog/sam-altman-the-startup-prodigy-steering-openai-s-quest-for-agi-and-ai-leadership/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            434
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            435,
+            525
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/mastering-gmail-out-of-office-replies-in-2025",
+      "title": "Mastering Gmail Out-of-Office Replies in 2025 — Merlin",
+      "h1": "Mastering Gmail Out-of-Office Replies in 2025",
+      "template": "template.blog-post",
+      "file": "src/blog/mastering-gmail-out-of-office-replies-in-2025/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            390
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            391,
+            481
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/throwaway-email-addresses-in-2025-the-complete-guide-to-disposable-emails-for-privacy-and-spam-control",
+      "title": "Throwaway Email Addresses in 2025: The Complete Guide to Disposable Emails for Privacy and Spam Control — Merlin",
+      "h1": "Throwaway Email Addresses in 2025: The Complete Guide to Disposable Emails for Privacy and Spam Control",
+      "template": "template.blog-post",
+      "file": "src/blog/throwaway-email-addresses-in-2025-the-complete-guide-to-disposable-emails-for-privacy-and-spam-control/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            45,
+            45
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            46,
+            59
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            60,
+            407
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            408,
+            487
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/why-is-my-email-queued-and-how-to-fix-it",
+      "title": "Why Is My Email Queued and How to Fix It — Merlin",
+      "h1": "Why Is My Email Queued and How to Fix It",
+      "template": "template.blog-post",
+      "file": "src/blog/why-is-my-email-queued-and-how-to-fix-it/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            339
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            340,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-write-a-resignation-email-in-2025-the-ultimate-guide-for-professionals",
+      "title": "How to Write a Resignation Email in 2025: The Ultimate Guide for Professionals — Merlin",
+      "h1": "How to Write a Resignation Email in 2025: The Ultimate Guide for Professionals",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-write-a-resignation-email-in-2025-the-ultimate-guide-for-professionals/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            504
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            505,
+            595
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-unsend-an-email-updated-2025-guide",
+      "title": "How to Unsend an Email (Updated 2025 Guide) — Merlin",
+      "h1": "How to Unsend an Email (Updated 2025 Guide)",
+      "template": "template.blog-post",
+      "file": "src/blog/how-to-unsend-an-email-updated-2025-guide/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.skip-link",
+          "tag": "a",
+          "anchor": "skip-link",
+          "lines": [
+            33,
+            33
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.page-nav",
+          "tag": "div",
+          "anchor": "site-container",
+          "lines": [
+            34,
+            47
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.blog-content-article",
+          "tag": "article",
+          "anchor": "id=\"blog-content\"",
+          "lines": [
+            48,
+            515
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.closing-footer",
+          "tag": "footer",
+          "anchor": "closing-footer",
+          "lines": [
+            516,
+            606
+          ]
+        }
+      ]
+    }
+  ]
+}

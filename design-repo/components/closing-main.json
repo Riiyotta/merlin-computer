@@ -1,0 +1,15 @@
+{
+  "id": "closing-main",
+  "name": "closing-main",
+  "occurrences": 26,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

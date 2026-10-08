@@ -1,0 +1,17 @@
+{
+  "id": "story-section",
+  "name": "story-section",
+  "occurrences": 3,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

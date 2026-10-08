@@ -1,0 +1,105 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.manifesto",
+  "route": "/manifesto",
+  "nodes": [
+    {
+      "type": "shell.skip-link",
+      "content": {
+        "ctas": [
+          {
+            "label": "Read the manifesto",
+            "href": "#manifesto"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.page-nav",
+      "content": {
+        "images": [
+          {
+            "assetRole": "logo"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.manifesto",
+      "content": {
+        "heading": "Less managing. More living.",
+        "body": [
+          "This afternoon, you have an idea. You find a quiet moment, open your laptop, and think you’ll finally get to it today.",
+          "Then there’s a reply to write. A meeting to rearrange. A PDF document somewhere in that thread. Before you know it, the afternoon is slipping away and the idea is still sitting where you left it."
+        ],
+        "items": [
+          {
+            "title": "We know that day. We’ve lived it too.",
+            "body": "It’s why we’re building Merlin, an AI assistant for your Mac. Something you can turn to in the middle of all this and say, “Can you give me a hand?”"
+          },
+          {
+            "title": "And there it is. A little room.",
+            "body": "After the call, there’s a trip to sort out. Merlin looks through flights in your browser and helps with the booking, stopping for your approval before you commit. One more thing off your mind."
+          },
+          {
+            "title": "Your time. Yours to spend.",
+            "body": "Before you finish, you set up a routine for your next morning briefing. The familiar work has a place to go. It doesn’t all have to live in your head when you step away."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "content-image",
+            "alt": "Merlin sitting comfortably in an armchair with a laptop in a sunlit room."
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Merlin sharing tea and a conversation with a friend at a sunny garden studio table."
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Merlin enjoying a book under a beach umbrella beside the sea at sunset."
+          },
+          {
+            "assetRole": "content-image"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-animation",
+        "reducedMotionFallback": "instant-state"
+      }
+    },
+    {
+      "type": "shell.closing-footer",
+      "content": {
+        "heading": "Your next free moment starts at 16:42",
+        "body": [
+          "In just three minutes, Merlin starts handling your to-dos. You decide what comes after."
+        ],
+        "ctas": [
+          {
+            "label": "GET MERLIN FOR MAC",
+            "href": "/download?start=1"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "background"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

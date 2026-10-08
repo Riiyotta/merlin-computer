@@ -1,0 +1,11 @@
+{
+  "name": "Merlin — Your AI assistant for Mac",
+  "slug": "merlin-computer",
+  "source": "https://www.merlin.computer//",
+  "scrapedAt": "2026-10-07T11:14:27Z",
+  "routes": 27,
+  "unmodelledRoutes": [],
+  "framework": "React+Next.js",
+  "screenshots": 27,
+  "video": "preview.webm"
+}

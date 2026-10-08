@@ -1,0 +1,12 @@
+{
+  "id": "bs-card-brand",
+  "name": "bs-card-brand",
+  "occurrences": 4,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

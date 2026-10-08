@@ -1,0 +1,10 @@
+{
+  "id": "skip-link",
+  "name": "skip-link",
+  "occurrences": 26,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

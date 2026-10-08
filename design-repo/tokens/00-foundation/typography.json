@@ -1,0 +1,246 @@
+{
+  "$description": "Foundation typography tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "fontFamily.01": {
+      "$type": "fontFamily",
+      "$value": "Open Runde",
+      "usage": 4819
+    },
+    "fontFamily.02": {
+      "$type": "fontFamily",
+      "$value": "Exposure",
+      "usage": 379
+    },
+    "fontFamily.03": {
+      "$type": "fontFamily",
+      "$value": "Arial",
+      "usage": 187
+    },
+    "fontFamily.04": {
+      "$type": "fontFamily",
+      "$value": "-apple-system",
+      "usage": 49
+    },
+    "fontFamily.05": {
+      "$type": "fontFamily",
+      "$value": "ui-monospace",
+      "usage": 38
+    },
+    "fontFamily.06": {
+      "$type": "fontFamily",
+      "$value": "Caveat",
+      "usage": 8
+    },
+    "fontFamily.07": {
+      "$type": "fontFamily",
+      "$value": "caveat",
+      "usage": 6
+    },
+    "fontFamily.08": {
+      "$type": "fontFamily",
+      "$value": "sans-serif",
+      "usage": 4
+    },
+    "fontSize.7": {
+      "$type": "dimension",
+      "$value": "7px",
+      "usage": 13
+    },
+    "fontSize.9": {
+      "$type": "dimension",
+      "$value": "9px",
+      "usage": 70
+    },
+    "fontSize.10": {
+      "$type": "dimension",
+      "$value": "10px",
+      "usage": 83
+    },
+    "fontSize.11": {
+      "$type": "dimension",
+      "$value": "11px",
+      "usage": 47
+    },
+    "fontSize.12": {
+      "$type": "dimension",
+      "$value": "12px",
+      "usage": 191
+    },
+    "fontSize.13": {
+      "$type": "dimension",
+      "$value": "13px",
+      "usage": 133
+    },
+    "fontSize.14": {
+      "$type": "dimension",
+      "$value": "14px",
+      "usage": 267
+    },
+    "fontSize.15": {
+      "$type": "dimension",
+      "$value": "15px",
+      "usage": 42
+    },
+    "fontSize.16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": 131
+    },
+    "fontSize.17": {
+      "$type": "dimension",
+      "$value": "17px",
+      "usage": 3794
+    },
+    "fontSize.18": {
+      "$type": "dimension",
+      "$value": "18px",
+      "usage": 16
+    },
+    "fontSize.20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "usage": 94
+    },
+    "fontSize.22": {
+      "$type": "dimension",
+      "$value": "22px",
+      "usage": 42
+    },
+    "fontSize.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 350
+    },
+    "fontSize.36": {
+      "$type": "dimension",
+      "$value": "36px",
+      "usage": 17
+    },
+    "fontSize.44_4813": {
+      "$type": "dimension",
+      "$value": "44.4813px",
+      "usage": 36
+    },
+    "fontSize.60": {
+      "$type": "dimension",
+      "$value": "60px",
+      "usage": 20
+    },
+    "fontSize.64": {
+      "$type": "dimension",
+      "$value": "64px",
+      "usage": 92
+    },
+    "fontWeight.400": {
+      "$type": "fontWeight",
+      "$value": "400",
+      "usage": 3014
+    },
+    "fontWeight.500": {
+      "$type": "fontWeight",
+      "$value": "500",
+      "usage": 236
+    },
+    "fontWeight.600": {
+      "$type": "fontWeight",
+      "$value": "600",
+      "usage": 2184
+    },
+    "fontWeight.700": {
+      "$type": "fontWeight",
+      "$value": "700",
+      "usage": 58
+    },
+    "fontWeight.800": {
+      "$type": "fontWeight",
+      "$value": "800",
+      "usage": 2
+    },
+    "lineHeight.13_05": {
+      "$type": "dimension",
+      "$value": "13.05px",
+      "usage": 46
+    },
+    "lineHeight.14_5": {
+      "$type": "dimension",
+      "$value": "14.5px",
+      "usage": 54
+    },
+    "lineHeight.18": {
+      "$type": "dimension",
+      "$value": "18px",
+      "usage": 67
+    },
+    "lineHeight.19_2": {
+      "$type": "dimension",
+      "$value": "19.2px",
+      "usage": 93
+    },
+    "lineHeight.20_8": {
+      "$type": "dimension",
+      "$value": "20.8px",
+      "usage": 103
+    },
+    "lineHeight.21": {
+      "$type": "dimension",
+      "$value": "21px",
+      "usage": 53
+    },
+    "lineHeight.22_4": {
+      "$type": "dimension",
+      "$value": "22.4px",
+      "usage": 168
+    },
+    "lineHeight.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 59
+    },
+    "lineHeight.25_5": {
+      "$type": "dimension",
+      "$value": "25.5px",
+      "usage": 61
+    },
+    "lineHeight.26": {
+      "$type": "dimension",
+      "$value": "26px",
+      "usage": 80
+    },
+    "lineHeight.28_8": {
+      "$type": "dimension",
+      "$value": "28.8px",
+      "usage": 58
+    },
+    "lineHeight.29_7": {
+      "$type": "dimension",
+      "$value": "29.7px",
+      "usage": 42
+    },
+    "lineHeight.30_6": {
+      "$type": "dimension",
+      "$value": "30.6px",
+      "usage": 3677
+    },
+    "lineHeight.31_2": {
+      "$type": "dimension",
+      "$value": "31.2px",
+      "usage": 142
+    },
+    "lineHeight.36": {
+      "$type": "dimension",
+      "$value": "36px",
+      "usage": 208
+    },
+    "lineHeight.60_8": {
+      "$type": "dimension",
+      "$value": "60.8px",
+      "usage": 78
+    },
+    "lineHeight.67_2": {
+      "$type": "dimension",
+      "$value": "67.2px",
+      "usage": 0,
+      "addedFor": "semantic role"
+    }
+  }
+}

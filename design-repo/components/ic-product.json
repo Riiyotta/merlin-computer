@@ -1,0 +1,13 @@
+{
+  "id": "ic-product",
+  "name": "ic-product",
+  "occurrences": 3,
+  "composedOf": [
+    "button",
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

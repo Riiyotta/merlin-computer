@@ -1,0 +1,12 @@
+{
+  "id": "dd-restaurant-select",
+  "name": "dd-restaurant-select",
+  "occurrences": 3,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

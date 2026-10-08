@@ -1,0 +1,13 @@
+{
+  "name": "merlin-computer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "python3 _serve.py",
+    "ia:validate": "node validate.mjs",
+    "ia:build": "node build.mjs",
+    "verify": "python3 design-repo/extraction/verify_all.py",
+    "ir:validate": "python3 ir/validate_ir.py",
+    "drift": "python3 design-repo/extraction/prove_drift.py"
+  }
+}

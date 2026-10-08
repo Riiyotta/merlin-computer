@@ -1,0 +1,12 @@
+{
+  "id": "story-artifact-icons",
+  "name": "story-artifact-icons",
+  "occurrences": 17,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

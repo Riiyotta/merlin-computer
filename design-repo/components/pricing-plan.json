@@ -1,0 +1,15 @@
+{
+  "id": "pricing-plan",
+  "name": "pricing-plan",
+  "occurrences": 3,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

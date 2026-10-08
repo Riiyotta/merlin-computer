@@ -1,0 +1,14 @@
+{
+  "id": "privacy-trust-card",
+  "name": "privacy-trust-card",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

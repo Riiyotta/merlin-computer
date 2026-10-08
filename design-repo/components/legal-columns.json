@@ -1,0 +1,14 @@
+{
+  "id": "legal-columns",
+  "name": "legal-columns",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "closing-invitation",
+  "name": "closing-invitation",
+  "occurrences": 26,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

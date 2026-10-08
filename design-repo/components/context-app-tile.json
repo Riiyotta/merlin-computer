@@ -1,0 +1,12 @@
+{
+  "id": "context-app-tile",
+  "name": "context-app-tile",
+  "occurrences": 6,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

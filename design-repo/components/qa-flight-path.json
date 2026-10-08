@@ -1,0 +1,10 @@
+{
+  "id": "qa-flight-path",
+  "name": "qa-flight-path",
+  "occurrences": 3,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

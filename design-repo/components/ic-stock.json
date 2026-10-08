@@ -1,0 +1,10 @@
+{
+  "id": "ic-stock",
+  "name": "ic-stock",
+  "occurrences": 3,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

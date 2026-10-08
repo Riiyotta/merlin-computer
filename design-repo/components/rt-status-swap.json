@@ -1,0 +1,10 @@
+{
+  "id": "rt-status-swap",
+  "name": "rt-status-swap",
+  "occurrences": 5,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

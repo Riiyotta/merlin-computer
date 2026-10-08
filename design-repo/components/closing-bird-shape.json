@@ -1,0 +1,10 @@
+{
+  "id": "closing-bird-shape",
+  "name": "closing-bird-shape",
+  "occurrences": 78,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

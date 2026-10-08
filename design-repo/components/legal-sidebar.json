@@ -1,0 +1,12 @@
+{
+  "id": "legal-sidebar",
+  "name": "legal-sidebar",
+  "occurrences": 2,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy"
+  }
+}
